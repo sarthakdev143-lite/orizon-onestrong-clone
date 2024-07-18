@@ -1,0 +1,11 @@
+#landing {
+    width: 100%;
+    max-height: 92vh;
+    position: relative;
+
+    
+    figure {
+        position: absolute;
+        z-index: 0;
+    }
+}

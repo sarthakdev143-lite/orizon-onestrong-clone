@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+
+    nav {
+        width: 100%;
+        max-width: 129rem;
+        padding: 2rem;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: green;
+
+        &>* {
+            color: #fff;
+        }
+
+        #logo {
+            background: red;
+            width: 10rem;
+            height: 2rem;
+        }
+
+        section {
+
+            .logo {
+                width: 16rem;
+            }
+
+            ul {
+                display: flex;
+
+                li {
+                    padding: 1.5rem 2rem;
+                }
+            }
+        }
+    }
+}
