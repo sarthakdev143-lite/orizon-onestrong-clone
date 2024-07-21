@@ -1,0 +1,119 @@
+#industries {
+    width: 100%;
+    height: 62rem;
+    background: #181818;
+    border-radius: 2rem;
+    padding: 6.5rem;
+    padding-top: 12rem;
+
+    * {
+        color: #fff;
+    }
+
+    #industries-wrapper {
+        width: 100%;
+        max-width: 129rem;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4.5rem;
+
+        h1 {
+            font-size: 5.5rem;
+            text-transform: uppercase;
+        }
+
+        .lower-part {
+            display: flex;
+            border-top: 0.1rem solid #444;
+
+            article.left {
+                min-width: 31rem !important;
+                height: 31rem;
+                border-right: 0.1rem solid #444;
+                font-size: 1.3rem;
+                padding: 5rem 5rem 0 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 2.5rem;
+                line-height: 2rem;
+
+
+                button {
+                    width: 17rem;
+                    height: 4.5rem;
+                    border-radius: 2rem;
+                    background: #F55D2D;
+                    display: flex;
+                    gap: 1.2rem;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                    border: none;
+
+                    span {
+                        font-weight: 200;
+                    }
+                }
+            }
+
+            .slider-wrapper {
+                width: 82%;
+                height: 100%;
+                padding: 4.5rem 0 0 4.5rem;
+
+                button {
+                    display: none !important;
+                }
+
+                .slick-track {
+                    display: flex;
+                    gap: 2rem;
+                }
+
+                .slider-item {
+                    height: 26rem;
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: 2rem;
+                    background: #fff;
+                    overflow: hidden;
+
+                    figure {
+                        width: 100%;
+                        height: 56%;
+                        border-radius: 1rem;
+                        background: #ddd;
+                        overflow: hidden;
+                        position: relative;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+
+                        figcaption {
+                            position: absolute;
+                            bottom: 1.5rem;
+                            left: 1rem;
+                            color: #fff;
+                            font-size: 2.5rem;
+                            font-weight: 600;
+                        }
+
+                    }
+
+                    .slider-item-article {
+                        color: #444;
+                        padding: 2rem;
+                        font-size: 1.05rem;
+                        line-height: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+}

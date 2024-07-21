@@ -1,4 +1,4 @@
-.slider-container {
+.slider-container#company-name-slider {
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -22,19 +22,19 @@
         left: 0;
         background: linear-gradient(to left, transparent, #fff);
     }
-}
 
-.slider {
-    display: flex;
-    white-space: nowrap;
-}
+    .slider {
+        display: flex;
+        white-space: nowrap;
+    }
 
-.slider-item {
-    padding: 1rem 3rem;
-    width: 18rem;
-    opacity: 0.4;
+    .slider-item {
+        padding: 1rem 3rem;
+        width: 18rem;
+        opacity: 0.4;
 
-    &:hover {
-        opacity: 1;
+        &:hover {
+            opacity: 1;
+        }
     }
 }

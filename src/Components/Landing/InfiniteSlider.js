@@ -88,7 +88,7 @@ const InfiniteSlider = () => {
 
     return (
         <>
-            <div className="slider-container">
+            <div className="slider-container" id='company-name-slider'>
                 <div className="slider" ref={sliderRef}>
                     {items.map((item) => (
                         <img className='slider-item' src={require(`${item.image}`)} alt={item.caption} />
