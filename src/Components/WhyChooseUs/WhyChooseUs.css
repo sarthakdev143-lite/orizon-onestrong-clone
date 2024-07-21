@@ -1,0 +1,125 @@
+#why-choose-us {
+    width: 100%;
+    height: 62rem;
+    padding: 6.5rem;
+    padding-top: 8rem;
+
+    #why-choose-us-wrapper {
+        width: 100%;
+        max-width: 129rem;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 4.5rem;
+
+        .upper-part {
+            h1 {
+                font-size: 5.5rem;
+                text-transform: uppercase;
+            }
+
+            P {
+                font-size: 1.9rem;
+                color: #888;
+                width: 45%;
+            }
+        }
+
+        .lower-part {
+            display: flex;
+            border-top: 0.1rem solid #ddd;
+
+            article.left {
+                max-width: 31rem !important;
+                height: 31rem;
+                border-right: 0.1rem solid #ddd;
+                font-size: 1.3rem;
+                padding: 5rem 5rem 0 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 2.5rem;
+                line-height: 2rem;
+
+                button {
+                    width: 17rem;
+                    height: 4.5rem;
+                    border-radius: 2rem;
+                    background: #F55D2D;
+                    color: #fff;
+                    display: flex;
+                    gap: 1.2rem;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1.2rem;
+                    text-transform: uppercase;
+                    border: none;
+
+                    span {
+                        font-weight: 200;
+                    }
+                }
+            }
+
+            .right {
+                width: 82%;
+                height: 100%;
+                padding: 4.5rem 0 0 4.5rem;
+                display: flex;
+                gap: 3.5rem;
+
+                figure {
+                    width: 29rem;
+                    height: 29rem;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 2rem;
+                    }
+                }
+
+                .numbers {
+                    display: flex;
+                    gap: 3.5rem;
+
+                    .column {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2rem;
+
+                        .box {
+                            display: flex;
+                            flex-direction: column;
+                            border-top: 0.3rem solid #F55D2D;
+                            padding-top: 1rem;
+                            height: 12rem;
+                            transition: all ease 0.5s;
+                            
+                            h1 {
+                                display: flex;
+                                justify-content: space-between;
+                                font-size: 5.7rem;
+                                
+                                span {
+                                    transition: all ease 0.2s;
+                                    font-size: 5rem;
+                                    font-weight: 200;
+                                }
+                            }
+
+                            &:hover {
+                                transform: translateY(-0.4rem);
+
+                                span {
+                                    color: #F55D2D;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
