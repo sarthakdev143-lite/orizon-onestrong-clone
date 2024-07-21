@@ -15,22 +15,13 @@ header {
         padding: 1.7rem 2rem;
         align-items: center;
         justify-content: space-between;
-        /* background: green; */
 
         &>* {
             color: #fff;
         }
 
-        .logo-fig {
-            /* background: red; */
+        .logo {
             width: 16rem;
-            display: grid;
-            place-items: center;
-
-            .logo {
-                width: 100%;
-                object-position: center;
-            }
         }
 
         section {
