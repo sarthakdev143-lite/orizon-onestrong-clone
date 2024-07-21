@@ -5,10 +5,8 @@ const Header = () => {
     return (
         <header>
             <nav>
-                <section id='logo'>
-                    <figure className='logo-fig'>
-                        <img className='logo' src={require('./logo.png')} alt="Logo Not Found!" />
-                    </figure>
+                <section className='logo-fig'>
+                    <img className='logo' src={require('./logo.png')} alt="Logo Not Found!" />
                 </section>
                 <section id='links'>
                     <ul type='none'>
@@ -21,9 +19,11 @@ const Header = () => {
                     </ul>
                 </section>
                 <section id='contact'>
-                    <h4>+021-5557-874</h4>
+                    <h1>+021-5557-874</h1>
                     <button>
-                        Contact us <i class="ri-arrow-right-up-line"></i>
+                        Contact us <span class="material-symbols-outlined">
+                            arrow_outward
+                        </span>
                     </button>
                 </section>
             </nav>

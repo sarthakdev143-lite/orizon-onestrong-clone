@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,0,200');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 header {
     width: 100%;
     display: flex;
@@ -8,36 +11,86 @@ header {
     nav {
         width: 100%;
         max-width: 129rem;
-        padding: 2rem;
-        height: 100%;
         display: flex;
+        padding: 1.7rem 2rem;
         align-items: center;
         justify-content: space-between;
-        background: green;
+        /* background: green; */
 
         &>* {
             color: #fff;
         }
 
-        #logo {
-            background: red;
-            width: 10rem;
-            height: 2rem;
+        .logo-fig {
+            /* background: red; */
+            width: 16rem;
+            display: grid;
+            place-items: center;
+
+            .logo {
+                width: 100%;
+                object-position: center;
+            }
         }
 
         section {
-
-            .logo {
-                width: 16rem;
-            }
-
             ul {
+                transform: translateX(2.4rem);
                 display: flex;
 
                 li {
-                    padding: 1.5rem 2rem;
+                    font-size: 1.18rem;
+                    padding: 1.5rem 1.5rem;
+                    font-weight: 600;
+                    cursor: pointer;
+                    text-transform: uppercase;
                 }
             }
         }
+
+        #contact {
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            transform: translateX(-0.4rem);
+
+            h1 {
+                font-size: 1.2rem;
+                font-weight: 400;
+            }
+
+            button {
+                width: 14.5rem;
+                height: 3rem;
+                border-radius: 5rem;
+                font-size: 1.16rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.8rem;
+                background: #F55D2D;
+                border: 0.2rem solid transparent;
+                font-weight: 300;
+                transition: all ease 0.3s;
+
+                &:hover {
+                    background: #000;
+                    color: #fff;
+                    border-color: #fff;
+                }
+
+                span {
+                    font-size: 1.6rem;
+                    font-weight: 200;
+                    transform: translateY(0.2rem);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    ul {
+        display: none !important;
     }
 }

@@ -1,0 +1,40 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 0.2rem rgb(180, 180, 180) solid;
+
+    &::after,
+    &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 10;
+        width: 15rem;
+        height: 100%;
+        background: linear-gradient(to right, transparent, #fff);
+    }
+
+    &::before {
+        left: 0;
+        background: linear-gradient(to left, transparent, #fff);
+    }
+}
+
+.slider {
+    display: flex;
+    white-space: nowrap;
+}
+
+.slider-item {
+    padding: 1rem 3rem;
+    width: 18rem;
+    opacity: 0.4;
+
+    &:hover {
+        opacity: 1;
+    }
+}

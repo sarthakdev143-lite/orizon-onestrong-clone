@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.features-container {
+    padding: 8.5rem 0.5rem;
+
+    .features-wrapper {
+        min-height: 100%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 125rem;
+        margin: 0 auto;
+    }
+
+    .features-list {
+        width: 45%;
+
+        button.feature {
+            width: 100%;
+            padding: 0.3rem 1rem;
+            border: none;
+            cursor: pointer;
+            background: #fff;
+            border-bottom: 0.1rem solid transparent;
+            display: flex;
+            text-align: left;
+            gap: 1.5rem;
+
+            h3 {
+                font-size: 1.9rem;
+                line-height: 4.5rem;
+                color: grey;
+            }
+
+            h1 {
+                font-size: 4.6rem;
+                letter-spacing: -0.3rem;
+                font-weight: 900;
+            }
+        }
+
+        .feature.active,
+        .feature:hover {
+            border-color: #F55D2D;
+
+            h1 {
+                color: #F55D2D;
+            }
+        }
+    }
+
+    .features-content {
+        width: 49%;
+        margin-right: 2rem;
+        margin-top: 1.5rem;
+        position: relative;
+        transition: all ease 0.3s;
+        min-height: 59rem;
+    }
+
+    .slide {
+        padding: 1.6rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        opacity: 0;
+        border: 0.1rem solid #ddd;
+        transition: opacity 0.5s ease-in-out;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        border-radius: 2rem;
+        overflow: hidden;
+
+        &::after {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 48%;
+            background: #F55D2D
+        }
+
+        &.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        &:hover {
+            border-color: #F55D2D;
+        }
+
+        .tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            max-width: 90%;
+
+            .tag {
+                padding: 0.2rem 0.8rem;
+                text-transform: uppercase;
+                font-weight: 600;
+                color: #333;
+                border: 0.1rem solid #ddd;
+                border-radius: 5rem;
+                font-family: 'red hat mono';
+                transition: all ease 0.3s;
+
+                &:hover {
+                    border-color: #F55D2D;
+                }
+            }
+        }
+
+        p {
+            font-size: 1.18rem;
+            line-height: 2rem;
+            color: grey;
+        }
+
+        .learn-more {
+            display: flex;
+            gap: 1.6rem;
+            width: fit-content;
+            align-items: center;
+            text-transform: uppercase;
+            font-weight: bolder;
+            font-family: 'IBM Plex Mono';
+            cursor: pointer;
+
+            span {
+                border: 0.1rem solid #F55D2D;
+                border-radius: 50%;
+                padding: 0.65rem;
+                font-weight: 300;
+                transition: all ease 0.2s;
+            }
+
+            &:hover span {
+                background: #F55D2D;
+                color: #fff;
+            }
+        }
+
+        img {
+            width: 64%;
+            margin: 0 auto;
+            pointer-events: none;
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .features-wrapper {
+        flex-direction: column;
+        gap: 5rem;
+
+        .features-content,
+        .features-list {
+            width: 100% !important;
+        }
+    }
+}
