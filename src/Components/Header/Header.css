@@ -10,7 +10,7 @@ header {
 
     nav {
         width: 100%;
-        max-width: 129rem;
+        width: 129rem;
         display: flex;
         padding: 1.7rem 2rem;
         align-items: center;
