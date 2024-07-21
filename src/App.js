@@ -4,6 +4,7 @@ import Landing from './Components/Landing/Landing'
 import Services from './Components/Services-Home/Services'
 import Industries from './Components/Industries/Industries'
 import WhyChooseUs from './Components/WhyChooseUs/WhyChooseUs'
+import Case_Studies from './Components/Case_Studies/Case_Studies'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Services />
       <Industries />
       <WhyChooseUs />
+      <Case_Studies />
       <div className="space"></div>
     </>
   )
