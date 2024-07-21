@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
                     <article className="left">
                         We pride ourselves on delivering high-quality custom software solutions that drive business growth and success. You gain a trusted partner who is dedicated to understanding your unique requirements and delivering innovative, and secure software tailored to your needs.
                         <button>
-                            Discover Now
+                            About us
                             <span className="material-symbols-outlined">arrow_outward</span>
                         </button>
                     </article>
