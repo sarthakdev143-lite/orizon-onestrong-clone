@@ -1,27 +1,41 @@
 {
   "files": {
-    "main.css": "/orizon-onestrong-clone/static/css/main.134ec3ff.css",
-    "main.js": "/orizon-onestrong-clone/static/js/main.831576f2.js",
-    "static/js/453.8090080a.chunk.js": "/orizon-onestrong-clone/static/js/453.8090080a.chunk.js",
+    "main.css": "/orizon-onestrong-clone/static/css/main.a819b035.css",
+    "main.js": "/orizon-onestrong-clone/static/js/main.10714aa2.js",
+    "static/js/453.ce203ff8.chunk.js": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js",
     "static/media/bg.mp4": "/orizon-onestrong-clone/static/media/bg.1b3f6e67fea8796c9fd9.mp4",
     "static/media/slide3.png": "/orizon-onestrong-clone/static/media/slide3.2fec21a24a74ac0963fa.png",
     "static/media/slide2.png": "/orizon-onestrong-clone/static/media/slide2.43efb79d28770fdacacf.png",
     "static/media/slide1.png": "/orizon-onestrong-clone/static/media/slide1.db704f1ca8c3e7ad9bf6.png",
     "static/media/slide4.png": "/orizon-onestrong-clone/static/media/slide4.d9048170168d9de1d052.png",
     "static/media/slide5.png": "/orizon-onestrong-clone/static/media/slide5.47304fcb9017f29c7fc1.png",
+    "static/media/logistics.jpg": "/orizon-onestrong-clone/static/media/logistics.e95f37a527df33dab846.jpg",
+    "static/media/real-estate.jpg": "/orizon-onestrong-clone/static/media/real-estate.e394dd24b56c562b2574.jpg",
+    "static/media/government.jpg": "/orizon-onestrong-clone/static/media/government.2dea8d7b635224068c4a.jpg",
+    "static/media/oil&gas.jpg": "/orizon-onestrong-clone/static/media/oil&gas.7a85d9cad53df7cab297.jpg",
+    "static/media/agriculture.jpg": "/orizon-onestrong-clone/static/media/agriculture.4b15e7742a2b888c1789.jpg",
+    "static/media/fintech.jpg": "/orizon-onestrong-clone/static/media/fintech.8de84a825df01634893a.jpg",
+    "static/media/energy.jpg": "/orizon-onestrong-clone/static/media/energy.aec69ab3fb2e1d5fec89.jpg",
+    "static/media/education.jpg": "/orizon-onestrong-clone/static/media/education.e88e0a6de0229d8d3e46.jpg",
+    "static/media/ecommerce.jpg": "/orizon-onestrong-clone/static/media/ecommerce.5c69dad26a5eaf24bebe.jpg",
+    "static/media/healthcare.jpg": "/orizon-onestrong-clone/static/media/healthcare.3686eddaf82474fb4a13.jpg",
     "static/media/waveless.png": "/orizon-onestrong-clone/static/media/waveless.1e142bfb65f9013128b8.png",
     "static/media/sitemark.png": "/orizon-onestrong-clone/static/media/sitemark.706f0b3d7cf7e5e4dbea.png",
     "static/media/vision.png": "/orizon-onestrong-clone/static/media/vision.4d8b88b1baa2974944b9.png",
     "static/media/nextmove.png": "/orizon-onestrong-clone/static/media/nextmove.b6920fdc270a0bddc5da.png",
     "static/media/logo.png": "/orizon-onestrong-clone/static/media/logo.5dde154bb444c72a434d.png",
     "static/media/automation.png": "/orizon-onestrong-clone/static/media/automation.5c06648bc07e0dc8b604.png",
+    "static/media/slick.svg": "/orizon-onestrong-clone/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/orizon-onestrong-clone/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/orizon-onestrong-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/orizon-onestrong-clone/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/orizon-onestrong-clone/index.html",
-    "main.134ec3ff.css.map": "/orizon-onestrong-clone/static/css/main.134ec3ff.css.map",
-    "main.831576f2.js.map": "/orizon-onestrong-clone/static/js/main.831576f2.js.map",
-    "453.8090080a.chunk.js.map": "/orizon-onestrong-clone/static/js/453.8090080a.chunk.js.map"
+    "main.a819b035.css.map": "/orizon-onestrong-clone/static/css/main.a819b035.css.map",
+    "main.10714aa2.js.map": "/orizon-onestrong-clone/static/js/main.10714aa2.js.map",
+    "453.ce203ff8.chunk.js.map": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.134ec3ff.css",
-    "static/js/main.831576f2.js"
+    "static/css/main.a819b035.css",
+    "static/js/main.10714aa2.js"
   ]
 }
