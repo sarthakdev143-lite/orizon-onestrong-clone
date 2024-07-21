@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/orizon-onestrong-clone/static/css/main.2671c28d.css",
-    "main.js": "/orizon-onestrong-clone/static/js/main.bb7125d0.js",
+    "main.css": "/orizon-onestrong-clone/static/css/main.134ec3ff.css",
+    "main.js": "/orizon-onestrong-clone/static/js/main.831576f2.js",
     "static/js/453.8090080a.chunk.js": "/orizon-onestrong-clone/static/js/453.8090080a.chunk.js",
     "static/media/bg.mp4": "/orizon-onestrong-clone/static/media/bg.1b3f6e67fea8796c9fd9.mp4",
+    "static/media/slide3.png": "/orizon-onestrong-clone/static/media/slide3.2fec21a24a74ac0963fa.png",
+    "static/media/slide2.png": "/orizon-onestrong-clone/static/media/slide2.43efb79d28770fdacacf.png",
+    "static/media/slide1.png": "/orizon-onestrong-clone/static/media/slide1.db704f1ca8c3e7ad9bf6.png",
+    "static/media/slide4.png": "/orizon-onestrong-clone/static/media/slide4.d9048170168d9de1d052.png",
+    "static/media/slide5.png": "/orizon-onestrong-clone/static/media/slide5.47304fcb9017f29c7fc1.png",
+    "static/media/waveless.png": "/orizon-onestrong-clone/static/media/waveless.1e142bfb65f9013128b8.png",
+    "static/media/sitemark.png": "/orizon-onestrong-clone/static/media/sitemark.706f0b3d7cf7e5e4dbea.png",
+    "static/media/vision.png": "/orizon-onestrong-clone/static/media/vision.4d8b88b1baa2974944b9.png",
+    "static/media/nextmove.png": "/orizon-onestrong-clone/static/media/nextmove.b6920fdc270a0bddc5da.png",
     "static/media/logo.png": "/orizon-onestrong-clone/static/media/logo.5dde154bb444c72a434d.png",
+    "static/media/automation.png": "/orizon-onestrong-clone/static/media/automation.5c06648bc07e0dc8b604.png",
     "index.html": "/orizon-onestrong-clone/index.html",
-    "main.2671c28d.css.map": "/orizon-onestrong-clone/static/css/main.2671c28d.css.map",
-    "main.bb7125d0.js.map": "/orizon-onestrong-clone/static/js/main.bb7125d0.js.map",
+    "main.134ec3ff.css.map": "/orizon-onestrong-clone/static/css/main.134ec3ff.css.map",
+    "main.831576f2.js.map": "/orizon-onestrong-clone/static/js/main.831576f2.js.map",
     "453.8090080a.chunk.js.map": "/orizon-onestrong-clone/static/js/453.8090080a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2671c28d.css",
-    "static/js/main.bb7125d0.js"
+    "static/css/main.134ec3ff.css",
+    "static/js/main.831576f2.js"
   ]
 }
