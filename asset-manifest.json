@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/orizon-onestrong-clone/static/css/main.0228271e.css",
-    "main.js": "/orizon-onestrong-clone/static/js/main.5b533eb9.js",
+    "main.css": "/orizon-onestrong-clone/static/css/main.e2700979.css",
+    "main.js": "/orizon-onestrong-clone/static/js/main.5067c83b.js",
     "static/js/453.ce203ff8.chunk.js": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js",
     "static/media/bg.mp4": "/orizon-onestrong-clone/static/media/bg.1b3f6e67fea8796c9fd9.mp4",
     "static/media/slide3.png": "/orizon-onestrong-clone/static/media/slide3.2fec21a24a74ac0963fa.png",
@@ -14,12 +14,18 @@
     "static/media/why-choose-us.jpg": "/orizon-onestrong-clone/static/media/why-choose-us.2479936719846d06e19b.jpg",
     "static/media/government.jpg": "/orizon-onestrong-clone/static/media/government.2dea8d7b635224068c4a.jpg",
     "static/media/oil&gas.jpg": "/orizon-onestrong-clone/static/media/oil&gas.7a85d9cad53df7cab297.jpg",
+    "static/media/workflow-system-energy.jpg": "/orizon-onestrong-clone/static/media/workflow-system-energy.2fea2c8d9631cf8c022c.jpg",
     "static/media/agriculture.jpg": "/orizon-onestrong-clone/static/media/agriculture.4b15e7742a2b888c1789.jpg",
     "static/media/fintech.jpg": "/orizon-onestrong-clone/static/media/fintech.8de84a825df01634893a.jpg",
     "static/media/energy.jpg": "/orizon-onestrong-clone/static/media/energy.aec69ab3fb2e1d5fec89.jpg",
     "static/media/education.jpg": "/orizon-onestrong-clone/static/media/education.e88e0a6de0229d8d3e46.jpg",
     "static/media/ecommerce.jpg": "/orizon-onestrong-clone/static/media/ecommerce.5c69dad26a5eaf24bebe.jpg",
+    "static/media/nutrition-coach-and-nutritionist.jpg": "/orizon-onestrong-clone/static/media/nutrition-coach-and-nutritionist.fb22ed1771fe2a9262f2.jpg",
     "static/media/healthcare.jpg": "/orizon-onestrong-clone/static/media/healthcare.3686eddaf82474fb4a13.jpg",
+    "static/media/fitness-and-personal-trainers.jpg": "/orizon-onestrong-clone/static/media/fitness-and-personal-trainers.563aa8ae4094686a73e4.jpg",
+    "static/media/qpay-e-wallet-mobile.jpg": "/orizon-onestrong-clone/static/media/qpay-e-wallet-mobile.870154384ad42b79d74e.jpg",
+    "static/media/workload-management.jpg": "/orizon-onestrong-clone/static/media/workload-management.c6a49492ba4ebb8a94d0.jpg",
+    "static/media/saas-for-end-to-end-analytics.jpg": "/orizon-onestrong-clone/static/media/saas-for-end-to-end-analytics.ab79684b6421a43260c9.jpg",
     "static/media/waveless.png": "/orizon-onestrong-clone/static/media/waveless.1e142bfb65f9013128b8.png",
     "static/media/sitemark.png": "/orizon-onestrong-clone/static/media/sitemark.706f0b3d7cf7e5e4dbea.png",
     "static/media/vision.png": "/orizon-onestrong-clone/static/media/vision.4d8b88b1baa2974944b9.png",
@@ -31,12 +37,12 @@
     "static/media/slick.ttf": "/orizon-onestrong-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/orizon-onestrong-clone/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/orizon-onestrong-clone/index.html",
-    "main.0228271e.css.map": "/orizon-onestrong-clone/static/css/main.0228271e.css.map",
-    "main.5b533eb9.js.map": "/orizon-onestrong-clone/static/js/main.5b533eb9.js.map",
+    "main.e2700979.css.map": "/orizon-onestrong-clone/static/css/main.e2700979.css.map",
+    "main.5067c83b.js.map": "/orizon-onestrong-clone/static/js/main.5067c83b.js.map",
     "453.ce203ff8.chunk.js.map": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0228271e.css",
-    "static/js/main.5b533eb9.js"
+    "static/css/main.e2700979.css",
+    "static/js/main.5067c83b.js"
   ]
 }
