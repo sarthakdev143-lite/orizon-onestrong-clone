@@ -33,6 +33,7 @@
 
     .studies-wrapper {
         width: calc(100% - 14rem);
+        max-width: 125rem;
         margin: 0 auto;
 
         .studies {

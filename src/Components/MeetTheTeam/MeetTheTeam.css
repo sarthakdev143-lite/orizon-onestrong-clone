@@ -1,0 +1,90 @@
+.meet-the-team {
+    width: 100%;
+
+    marquee {
+        width: 100%;
+        font-size: 13rem;
+        color: #EBEBEB;
+        font-weight: 1000;
+    }
+
+    .our-teams {
+        background: #181818;
+        width: 100%;
+        padding: 7rem 0 7rem 6.5rem;
+        border-radius: 2rem;
+        overflow: hidden;
+        
+        .our-teams-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 5rem;
+            max-width: 129rem;
+            min-width: 129rem;
+            margin: 0 auto;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 36rem;
+                right: 0;
+                top: 0;
+                background: linear-gradient(to right, transparent, #181818);
+            }
+        }
+
+        h1.heading {
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 5.5rem;
+            font-weight: 1000;
+        }
+
+        button {
+            display: none !important;
+        }
+
+        .slick-track {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .team-member {
+            display: flex !important;
+            flex-direction: column;
+            gap: 2rem;
+
+            figure {
+                width: 16rem;
+                height: 21rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 2rem;
+                }
+            }
+
+            figcaption {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+                padding-left: 1rem;
+
+                h1 {
+                    color: #fff;
+                    font-weight: 500;
+                }
+
+                h4 {
+                    font-weight: 500;
+                    color: #555;
+                    font-family: 'red hat mono';
+                }
+            }
+        }
+    }
+}

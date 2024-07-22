@@ -1,0 +1,66 @@
+import React from 'react'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import './MeetTheTeam.css'
+
+import EthanJohnson from './imgs/EthanJohnson.jpg'
+import BenjaminSmith from './imgs/BenjaminSmith.jpg'
+import OliviaDavis from './imgs/OliviaDavis.jpg'
+import Alexander from './imgs/Alexander.jpg'
+import AvaJohnson from './imgs/AvaJohnson.jpg'
+import SamuelAnderson from './imgs/SamuelAnderson.jpg'
+import MatthewWilson from './imgs/MatthewWilson.jpg'
+import DanielBrown from './imgs/DanielBrown.jpg'
+import MiaWright from './imgs/MiaWright.jpg'
+
+const TeamMembers = [
+    { name: "Ethan Johnson", role: "CEO ORIZON", imgSrc: EthanJohnson },
+    { name: "Benjamin Smith", role: "CHIEF OF INFORMATION", imgSrc: BenjaminSmith },
+    { name: "Olivia Davis", role: "CHIEF OF FINANCE", imgSrc: OliviaDavis },
+    { name: "Alexander", role: "FRONTEND DEVELOPER", imgSrc: Alexander },
+    { name: "Ava Johnson", role: "UI & UX DESIGN", imgSrc: AvaJohnson },
+    { name: "Samuel Anderson", role: "UI & UX DESIGN", imgSrc: SamuelAnderson },
+    { name: "Matthew Wilson", role: "DEVELOPER", imgSrc: MatthewWilson },
+    { name: "Daniel Brown", role: "DEVELOPER", imgSrc: DanielBrown },
+    { name: "Mia Wright", role: "DEVELOPER", imgSrc: MiaWright },
+]
+
+const sliderSettings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 7.1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+};
+
+const MeetTheTeam = () => {
+    return (
+        <section className="meet-the-team">
+            <marquee behavior="scroll" direction="left">Meet the Team ✺ Meet the Team ✺ Meet the Team ✺ Meet the Team</marquee>
+            <div className="our-teams">
+                <div className="our-teams-wrapper">
+                    <h1 className='heading'>our teams</h1>
+                    <div className="team-slider-wrapper">
+                        <Slider {...sliderSettings}>
+                            {TeamMembers.map((member, index) => (
+                                <div key={index} className="team-member">
+                                    <figure>
+                                        <img src={member.imgSrc} alt="Team Member Photo" />
+                                    </figure>
+                                    <figcaption>
+                                        <h1>{member.name}</h1>
+                                        <h4>{member.role}</h4>
+                                    </figcaption>
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+export default MeetTheTeam
