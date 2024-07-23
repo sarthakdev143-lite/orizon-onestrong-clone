@@ -6,6 +6,7 @@ import Industries from './Components/Industries/Industries'
 import WhyChooseUs from './Components/WhyChooseUs/WhyChooseUs'
 import Case_Studies from './Components/Case_Studies/Case_Studies'
 import MeetTheTeam from './Components/MeetTheTeam/MeetTheTeam'
+import TechnologyStack from './Components/TechnologyStack/TechnologyStack'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <WhyChooseUs />
       <Case_Studies />
       <MeetTheTeam />
+      <TechnologyStack />
       <div className="space"></div>
     </>
   )

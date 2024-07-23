@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Services.css'; // Assuming you are using CSS Modules or have styles scoped correctly
+import './Services.css';
 
 const Services = () => {
     const [activeFeature, setActiveFeature] = useState('slide1');
@@ -10,41 +10,11 @@ const Services = () => {
     };
 
     const slides = [
-        {
-            id: 'slide1',
-            index: '01/',
-            name: 'Evaluation & Design',
-            tags: ['research & development', 'scoping session', 'ui review', 'ui design', 'branding', 'product design', 'rapid prototyping'],
-            imgSrc: './imgs/slide1.png',
-        },
-        {
-            id: 'slide2',
-            index: '02/',
-            name: 'Custom Software',
-            tags: ['crm development', 'erp software', 'cloud app', 'webapp', 'branding', 'product development', 'nft marketplace'],
-            imgSrc: './imgs/slide2.png',
-        },
-        {
-            id: 'slide3',
-            index: '03/',
-            name: 'Web Development',
-            tags: ['frontend', 'php backend', 'java', 'node.js', '.net'],
-            imgSrc: './imgs/slide3.png',
-        },
-        {
-            id: 'slide4',
-            index: '04/',
-            name: 'Mobile Development',
-            tags: ['ios app', 'android app', 'react native', 'flutter', 'cross-platform', 'hybrid app', 'single app'],
-            imgSrc: './imgs/slide4.png',
-        },
-        {
-            id: 'slide5',
-            index: '05/',
-            name: 'Maintenance & Support',
-            tags: ['aws & cloud', 'agile project', 'market launch', 'ui design', 'test automation'],
-            imgSrc: './imgs/slide5.png',
-        }
+        { id: 'slide1', index: '01/', name: 'Evaluation & Design', tags: ['research & development', 'scoping session', 'ui review', 'ui design', 'branding', 'product design', 'rapid prototyping'], imgSrc: './imgs/slide1.png', },
+        { id: 'slide2', index: '02/', name: 'Custom Software', tags: ['crm development', 'erp software', 'cloud app', 'webapp', 'branding', 'product development', 'nft marketplace'], imgSrc: './imgs/slide2.png', },
+        { id: 'slide3', index: '03/', name: 'Web Development', tags: ['frontend', 'php backend', 'java', 'node.js', '.net'], imgSrc: './imgs/slide3.png', },
+        { id: 'slide4', index: '04/', name: 'Mobile Development', tags: ['ios app', 'android app', 'react native', 'flutter', 'cross-platform', 'hybrid app', 'single app'], imgSrc: './imgs/slide4.png', },
+        { id: 'slide5', index: '05/', name: 'Maintenance & Support', tags: ['aws & cloud', 'agile project', 'market launch', 'ui design', 'test automation'], imgSrc: './imgs/slide5.png', }
     ];
 
     return (
