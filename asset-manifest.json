@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/orizon-onestrong-clone/static/css/main.5011d7d6.css",
-    "main.js": "/orizon-onestrong-clone/static/js/main.11a6bf09.js",
+    "main.css": "/orizon-onestrong-clone/static/css/main.2bb2b05e.css",
+    "main.js": "/orizon-onestrong-clone/static/js/main.7d8be36d.js",
     "static/js/453.ce203ff8.chunk.js": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js",
     "static/media/bg.mp4": "/orizon-onestrong-clone/static/media/bg.1b3f6e67fea8796c9fd9.mp4",
     "static/media/slide3.png": "/orizon-onestrong-clone/static/media/slide3.2fec21a24a74ac0963fa.png",
@@ -32,9 +32,29 @@
     "static/media/nutrition-coach-and-nutritionist.jpg": "/orizon-onestrong-clone/static/media/nutrition-coach-and-nutritionist.fb22ed1771fe2a9262f2.jpg",
     "static/media/healthcare.jpg": "/orizon-onestrong-clone/static/media/healthcare.3686eddaf82474fb4a13.jpg",
     "static/media/fitness-and-personal-trainers.jpg": "/orizon-onestrong-clone/static/media/fitness-and-personal-trainers.563aa8ae4094686a73e4.jpg",
+    "static/media/laravel.png": "/orizon-onestrong-clone/static/media/laravel.e5e5817a84d51763738d.png",
+    "static/media/kubernetes.png": "/orizon-onestrong-clone/static/media/kubernetes.468c14164346d9167895.png",
+    "static/media/graphql.png": "/orizon-onestrong-clone/static/media/graphql.7607f8a7d5e65cdddca8.png",
+    "static/media/java.png": "/orizon-onestrong-clone/static/media/java.0b28a31159bebf851642.png",
+    "static/media/nodejs.png": "/orizon-onestrong-clone/static/media/nodejs.579895e190948ce16bc7.png",
+    "static/media/react.png": "/orizon-onestrong-clone/static/media/react.5c3ba6dbbb802bb4ea71.png",
+    "static/media/nginx.png": "/orizon-onestrong-clone/static/media/nginx.11d4f8bcb95acb44749e.png",
+    "static/media/aws.png": "/orizon-onestrong-clone/static/media/aws.fc3a12b162cb6bfe3c5a.png",
+    "static/media/google_cloud.png": "/orizon-onestrong-clone/static/media/google_cloud.63937c118cfc123671ab.png",
+    "static/media/azure.png": "/orizon-onestrong-clone/static/media/azure.53085c57e40ab64f5157.png",
+    "static/media/material_ui.png": "/orizon-onestrong-clone/static/media/material_ui.5b7c2cc07382855fb999.png",
+    "static/media/digital_ocean.png": "/orizon-onestrong-clone/static/media/digital_ocean.d8ba17fce4e2c7bd79e5.png",
+    "static/media/rest_api.png": "/orizon-onestrong-clone/static/media/rest_api.b0e79346d8bd3bae78f8.png",
     "static/media/qpay-e-wallet-mobile.jpg": "/orizon-onestrong-clone/static/media/qpay-e-wallet-mobile.870154384ad42b79d74e.jpg",
+    "static/media/ant_design.png": "/orizon-onestrong-clone/static/media/ant_design.c7286cf1c8b983f6e2f7.png",
+    "static/media/react_hook.png": "/orizon-onestrong-clone/static/media/react_hook.e25162a8a224699f6490.png",
     "static/media/workload-management.jpg": "/orizon-onestrong-clone/static/media/workload-management.c6a49492ba4ebb8a94d0.jpg",
+    "static/media/php.png": "/orizon-onestrong-clone/static/media/php.19ebe29849f39c6796fd.png",
+    "static/media/docker.png": "/orizon-onestrong-clone/static/media/docker.a03b9712bee296f06d12.png",
+    "static/media/nextjs.png": "/orizon-onestrong-clone/static/media/nextjs.34d787f66a75d2fe7ac0.png",
     "static/media/saas-for-end-to-end-analytics.jpg": "/orizon-onestrong-clone/static/media/saas-for-end-to-end-analytics.ab79684b6421a43260c9.jpg",
+    "static/media/typescript.png": "/orizon-onestrong-clone/static/media/typescript.5cb50aa1c14f0d07caad.png",
+    "static/media/hatzner.png": "/orizon-onestrong-clone/static/media/hatzner.dad7c42563804cd78fb6.png",
     "static/media/waveless.png": "/orizon-onestrong-clone/static/media/waveless.1e142bfb65f9013128b8.png",
     "static/media/sitemark.png": "/orizon-onestrong-clone/static/media/sitemark.706f0b3d7cf7e5e4dbea.png",
     "static/media/vision.png": "/orizon-onestrong-clone/static/media/vision.4d8b88b1baa2974944b9.png",
@@ -46,12 +66,12 @@
     "static/media/slick.ttf": "/orizon-onestrong-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/orizon-onestrong-clone/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/orizon-onestrong-clone/index.html",
-    "main.5011d7d6.css.map": "/orizon-onestrong-clone/static/css/main.5011d7d6.css.map",
-    "main.11a6bf09.js.map": "/orizon-onestrong-clone/static/js/main.11a6bf09.js.map",
+    "main.2bb2b05e.css.map": "/orizon-onestrong-clone/static/css/main.2bb2b05e.css.map",
+    "main.7d8be36d.js.map": "/orizon-onestrong-clone/static/js/main.7d8be36d.js.map",
     "453.ce203ff8.chunk.js.map": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5011d7d6.css",
-    "static/js/main.11a6bf09.js"
+    "static/css/main.2bb2b05e.css",
+    "static/js/main.7d8be36d.js"
   ]
 }
