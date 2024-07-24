@@ -1,0 +1,259 @@
+footer {
+    width: 100%;
+    padding-top: 13rem;
+    color: #fff;
+    font-family: Arial, sans-serif;
+
+    #footer-wrapper {
+        width: 100%;
+        max-width: 129rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            .part {
+                display: flex;
+                padding: 2rem 0;
+
+                &.part-1 {
+                    display: flex;
+                    gap: 9rem;
+                    background: #181818;
+                    margin: 0 auto;
+                    width: 97%;
+                    height: 51rem;
+                    padding: 1rem;
+                    border-radius: 2rem;
+
+                    .profile {
+                        min-width: 38.4rem;
+                        overflow: hidden;
+                        border-radius: 2rem;
+                        position: relative;
+
+                        figure img {
+                            width: 38.4rem;
+                            border-radius: 1rem;
+                            margin-bottom: 1rem;
+                        }
+
+                        figcaption {
+                            position: absolute;
+                            bottom: 0.8rem;
+                            width: 96%;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            height: fit-content;
+                            padding: 1.5rem 2.5rem 2.5rem;
+                            border-radius: 2rem;
+                            background: #181818E6;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1.5rem;
+
+                            h1 {
+                                font-size: 2.5rem;
+                                font-weight: 600;
+                            }
+
+                            .contacts {
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                gap: 1rem;
+
+                                .contact {
+                                    font-size: 1.2rem;
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 0.5rem;
+                                    color: #bbb;
+
+                                    i {
+                                        font-weight: 100;
+                                        color: #f60;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    form {
+                        width: 54.5%;
+                        padding-top: 1.2rem;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1rem;
+
+                        h1 {
+                            font-size: 4.4rem;
+                            line-height: 5rem;
+                            font-weight: 1000;
+                            width: 60%;
+                            letter-spacing: -0.15rem;
+                        }
+
+                        input,
+                        select,
+                        textarea {
+                            width: 100%;
+                            padding: 1rem 0 1rem 0;
+                            height: 5rem;
+                            border: none;
+                            border-bottom: 0.1rem solid #555;
+                            background: none;
+                            font-size: 1.2rem;
+                            color: #fff;
+
+                            &::placeholder {
+                                color: #fff;
+                            }
+                        }
+
+                        textarea {
+                            resize:vertical;
+                        }
+
+                        .inline {
+                            display: flex;
+                            align-items: center;
+                            gap: 2.5rem;
+
+                            input,
+                            select {
+                                width: 100%;
+                            }
+                        }
+
+                        .checkbox {
+                            display: flex;
+                            width: fit-content;
+                            background: red;
+
+                            input {
+                                background: green;
+                            }
+                        }
+
+                        input[type="submit"] {
+                            background-color: #f60;
+                            color: #fff;
+                            cursor: pointer;
+                            width: 16rem;
+                            border-radius: 2rem;
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+
+                &.part-2 {
+                    display: flex;
+                    justify-content: space-between;
+                    background: rgba(255, 0, 0, 0.466);
+
+                    .left {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+
+                        figure {
+                            img {
+                                width: 10rem;
+                                height: auto;
+                                margin-bottom: 1rem;
+                            }
+                        }
+
+                        figcaption {
+                            font-size: 1.6rem;
+                            margin-bottom: 2rem;
+                        }
+
+                        ul {
+                            display: flex;
+                            gap: 1rem;
+
+                            li {
+                                a {
+                                    font-size: 2rem;
+                                    color: #fff;
+
+                                    &:hover {
+                                        color: #f60;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .right {
+                        display: flex;
+                        gap: 3rem;
+
+                        .column {
+                            .section {
+                                margin-bottom: 2rem;
+
+                                h2,
+                                h1 {
+                                    font-size: 2rem;
+                                    margin-bottom: 1rem;
+                                }
+
+                                ul {
+                                    list-style: none;
+                                    padding: 0;
+
+                                    li {
+                                        margin-bottom: 0.5rem;
+
+                                        a {
+                                            color: #fff;
+                                            text-decoration: none;
+                                            font-size: 1.4rem;
+
+                                            &:hover {
+                                                color: #f60;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            padding: 2rem 0;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #333;
+
+            .left,
+            .right {
+                display: flex;
+                gap: 1rem;
+
+                h4 {
+                    font-size: 1.4rem;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: #f60;
+                    }
+
+                    &.divider1,
+                    &.divider2 {
+                        margin: 0 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

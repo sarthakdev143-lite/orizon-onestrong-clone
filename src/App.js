@@ -9,6 +9,7 @@ import MeetTheTeam from './Components/MeetTheTeam/MeetTheTeam'
 import TechnologyStack from './Components/TechnologyStack/TechnologyStack'
 import OurApproach from './Components/OurApproach/OurApproach'
 import ClientReviews from './Components/ClientReviews/ClientReviews'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
       <TechnologyStack />
       <OurApproach />
       <ClientReviews />
-      <div className="space"></div>
+      <Footer />
     </>
   )
 }
