@@ -10,7 +10,7 @@ header {
 
     nav {
         width: 100%;
-        width: 129rem;
+        max-width: 129rem;
         display: flex;
         padding: 1.7rem 2rem;
         align-items: center;
@@ -25,16 +25,74 @@ header {
         }
 
         section {
-            ul {
+            ul.navbar-list {
                 transform: translateX(2.4rem);
                 display: flex;
 
-                li {
+                .list {
+                    position: relative;
                     font-size: 1.18rem;
                     padding: 1.5rem 1.5rem;
                     font-weight: 600;
                     cursor: pointer;
-                    text-transform: uppercase;
+
+                    h1 {
+                        text-transform: uppercase;
+                    }
+
+                    &:hover {
+                        h1 {
+                            color: #F55D2D;
+                        }
+
+                        .dropdown {
+                            display: flex;
+                            animation: dropdown_hover 0.4s forwards ease;
+                        }
+                    }
+                }
+
+                .dropdown {
+                    display: none;
+                    opacity: 0;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    background: #181818;
+                    border: 0.1rem solid #333;
+                    color: #fff;
+                    border-radius: 0.7rem;
+                    min-width: 17rem;
+                    box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.2);
+                    z-index: -1;
+                    flex-direction: column;
+                    padding: 1rem;
+
+                    li {
+                        padding: 1rem;
+                        white-space: nowrap;
+                        border-radius: 0.7rem;
+                        font-weight: 400;
+
+                        a {
+                            color: inherit;
+                            text-decoration: none;
+                        }
+
+                        &:hover {
+                            background: #F55D2D;
+                            color: #000;
+                        }
+                    }
+                }
+
+                a {
+                    color: inherit;
+                    text-decoration: none;
+
+                    &.active {
+                        border-bottom: 2px solid #fff;
+                    }
                 }
             }
         }
@@ -83,5 +141,15 @@ header {
 @media (max-width: 1200px) {
     ul {
         display: none !important;
+    }
+}
+
+@keyframes dropdown_hover {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }

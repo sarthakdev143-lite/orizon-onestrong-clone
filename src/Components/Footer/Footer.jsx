@@ -8,6 +8,9 @@ import FooterBg from './imgs/footer-bg.jpg';
 const Footer = () => {
     return (
         <footer>
+            <div className="bg">
+                <img src={FooterBg} alt="Footer Background" />
+            </div>
             <div id="footer-wrapper">
                 <div className="content">
                     <section className="part-1 part">
@@ -42,6 +45,7 @@ const Footer = () => {
                             </div>
                             <div className="inline">
                                 <select name="" id="" required >
+                                    <option value="">Select One</option>
                                     <option value="">Real Estate</option>
                                     <option value="">Oil & Gas</option>
                                     <option value="">Ecommerce</option>
@@ -51,16 +55,20 @@ const Footer = () => {
                                     <option value="">Agriculture</option>
                                 </select>
                                 <select name="" id="" required >
-                                    <option value=""><i class="ri-arrow-left-s-line"></i> 10 K</option>
+                                    <option value="">Select One</option>
+                                    <option value="">10 K</option>
                                     <option value="">20 K - 50 K</option>
                                     <option value="">50 K - 100 K</option>
-                                    <option value=""><i class="ri-arrow-left-s-line"></i> 100 K</option>
+                                    <option value="">100 K</option>
                                     <option value="">N/A</option>
                                 </select>
                             </div>
                             <textarea name="" id="" placeholder='Message' required ></textarea>
                             <div className="checkbox">
-                                <input type="checkbox" name="" id="" required />
+                                <label class="container">
+                                    <input type="checkbox" required />
+                                    <div class="checkmark"></div>
+                                </label>
                                 <p>I agree that my personal information will be processed and stored by Orizon.</p>
                             </div>
                             <input type="submit" value="SEND MESSAGE" />
@@ -190,14 +198,18 @@ const Footer = () => {
                 </div>
                 <div className="bottom">
                     <div className="left">
-                        <h4>PRIVACY POLICY</h4>
-                        <span className='divider1'></span>
-                        <h4>SITEMAP</h4>
+                        <a href="#">
+                            <h5>PRIVACY POLICY</h5>
+                        </a>
+                        <span className='divider'>|</span>
+                        <a href="#">
+                            <h5>SITEMAP</h5>
+                        </a>
                     </div>
                     <div className="right">
-                        <h4>COPYRIGHT © 2023 ORIZON</h4>
-                        <span className='divider2'>|</span>
-                        <h4>POWERED BY ONECONTRIBUTOR</h4>
+                        <h5>COPYRIGHT © 2023 ORIZON</h5>
+                        <span className='divider'>|</span>
+                        <h5>POWERED BY ONECONTRIBUTOR</h5>
                     </div>
                 </div>
             </div>
