@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/orizon-onestrong-clone/static/css/main.97a63ae9.css",
-    "main.js": "/orizon-onestrong-clone/static/js/main.26f94c3b.js",
+    "main.css": "/orizon-onestrong-clone/static/css/main.e1b19a81.css",
+    "main.js": "/orizon-onestrong-clone/static/js/main.ec7e97bf.js",
     "static/js/453.ce203ff8.chunk.js": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js",
     "static/media/bg.mp4": "/orizon-onestrong-clone/static/media/bg.1b3f6e67fea8796c9fd9.mp4",
     "static/media/slide3.png": "/orizon-onestrong-clone/static/media/slide3.2fec21a24a74ac0963fa.png",
     "static/media/slide2.png": "/orizon-onestrong-clone/static/media/slide2.43efb79d28770fdacacf.png",
     "static/media/slide1.png": "/orizon-onestrong-clone/static/media/slide1.db704f1ca8c3e7ad9bf6.png",
     "static/media/slide4.png": "/orizon-onestrong-clone/static/media/slide4.d9048170168d9de1d052.png",
+    "static/media/footer-bg.jpg": "/orizon-onestrong-clone/static/media/footer-bg.3c2412d01334aeb8eb7c.jpg",
     "static/media/slide5.png": "/orizon-onestrong-clone/static/media/slide5.47304fcb9017f29c7fc1.png",
     "static/media/logistics.jpg": "/orizon-onestrong-clone/static/media/logistics.e95f37a527df33dab846.jpg",
     "static/media/real-estate.jpg": "/orizon-onestrong-clone/static/media/real-estate.e394dd24b56c562b2574.jpg",
@@ -15,6 +16,8 @@
     "static/media/MiaWright.jpg": "/orizon-onestrong-clone/static/media/MiaWright.e6ad88a0602da3a7bbfb.jpg",
     "static/media/DanielBrown.jpg": "/orizon-onestrong-clone/static/media/DanielBrown.f3c2dce186bcd5b2862d.jpg",
     "static/media/OliviaDavis.jpg": "/orizon-onestrong-clone/static/media/OliviaDavis.79ef5837748695fcb4c9.jpg",
+    "static/media/ceo-image.jpg": "/orizon-onestrong-clone/static/media/ceo-image.a585e94ab55016cd2331.jpg",
+    "static/media/services-landing-background.jpg": "/orizon-onestrong-clone/static/media/services-landing-background.cf9fdd5c5f1e7b89b27c.jpg",
     "static/media/MatthewWilson.jpg": "/orizon-onestrong-clone/static/media/MatthewWilson.d928301663ea6f62abdd.jpg",
     "static/media/why-choose-us.jpg": "/orizon-onestrong-clone/static/media/why-choose-us.2479936719846d06e19b.jpg",
     "static/media/EthanJohnson.jpg": "/orizon-onestrong-clone/static/media/EthanJohnson.c9a667ca31d2e4bfc1e7.jpg",
@@ -77,12 +80,12 @@
     "static/media/slick.ttf": "/orizon-onestrong-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/orizon-onestrong-clone/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/orizon-onestrong-clone/index.html",
-    "main.97a63ae9.css.map": "/orizon-onestrong-clone/static/css/main.97a63ae9.css.map",
-    "main.26f94c3b.js.map": "/orizon-onestrong-clone/static/js/main.26f94c3b.js.map",
+    "main.e1b19a81.css.map": "/orizon-onestrong-clone/static/css/main.e1b19a81.css.map",
+    "main.ec7e97bf.js.map": "/orizon-onestrong-clone/static/js/main.ec7e97bf.js.map",
     "453.ce203ff8.chunk.js.map": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97a63ae9.css",
-    "static/js/main.26f94c3b.js"
+    "static/css/main.e1b19a81.css",
+    "static/js/main.ec7e97bf.js"
   ]
 }
