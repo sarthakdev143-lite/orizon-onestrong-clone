@@ -29,11 +29,11 @@ const LetsDiscuss = () => {
                             </figure>
                             <div className="wrap">
                                 <article>
-                                    <div className="head">
+                                    <div className="article-head">
                                         <i class="ri-double-quotes-r"></i>
                                         <div className="sub-wrap">
                                             <h3>Benjamin Smith</h3>
-                                            <h5>IT Sales Manager</h5>
+                                            <h4>IT Sales Manager</h4>
                                         </div>
                                     </div>
                                     <p>Me and my team delivers an exceptional level of service and strives to build strong and long lasting partnerships with our clients.</p>
