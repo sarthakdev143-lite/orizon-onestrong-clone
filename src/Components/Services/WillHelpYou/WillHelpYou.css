@@ -1,0 +1,88 @@
+#will-help-you {
+    width: 100%;
+
+    #will-help-you-wrapper {
+        width: 100%;
+        max-width: 129rem;
+        margin: 0 auto;
+        padding: 9rem 2rem 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+
+        .head {
+            width: 100%;
+            padding-bottom: 3.7rem;
+
+            h1 {
+                font-size: 5.5rem;
+                font-weight: 1000;
+                text-transform: uppercase;
+            }
+
+            p {
+                font-size: 1.83rem;
+                max-width: 40%;
+                color: #888;
+            }
+        }
+
+        .content {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-top: 0.1rem solid #dfdfdf;
+
+            .left {
+                width: 49.6%;
+                border-right: 0.1rem solid #dfdfdf;
+                padding: 5rem 4rem 0 0;
+
+                article {
+                    width: 100%;
+                    padding-bottom: 3rem;
+
+                    p {
+                        font-size: 1.35rem;
+                        line-height: 2rem;
+                    }
+                }
+            }
+
+            .right {
+                width: 50%;
+                padding: 4rem 0 0 1rem;
+
+                .helps {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 2rem;
+
+                    .help {
+                        display: flex;
+                        gap: 3rem;
+
+                        i {
+                            font-size: 2rem;
+                            color: #F55D2D;
+                        }
+
+                        .wrap {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0.8rem;
+
+                            h1 {
+                                font-size: 1.6rem;
+                            }
+
+                            p {
+                                font-size: 1.2rem;
+                                line-height: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

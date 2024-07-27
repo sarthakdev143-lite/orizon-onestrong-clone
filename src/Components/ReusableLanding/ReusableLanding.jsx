@@ -1,25 +1,24 @@
-import React from 'react'
-import Header from '../../Header/Header'
+import React from 'react';
+import Header from '../Header/Header';
+import InfiniteSlider from '../Home/Landing/InfiniteSlider';
 import './Landing.css'
-import bgImage from './services-landing-background.jpg'
-import InfiniteSlider from '../../Home/Landing/InfiniteSlider'
 
-const Landing = () => {
+const ReusableLanding = ({ bgImage, title }) => {
     return (
         <>
-            <section id='landing-services'>
+            <section id='reusable-landing'>
                 <Header />
                 <figure>
                     <img src={bgImage} alt="Background Image" />
                 </figure>
                 <div id='landing-content'>
                     <article>
-                        <h1>Our Services</h1>
+                        <h1>{title}</h1>
                         <p>We create innovative custom software solutions that keep up with the latest developments in the technology industry.</p>
                     </article>
                     <div className="lets-discuss">
                         <p>let's discuss your project</p>
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                             arrow_outward
                         </span>
                     </div>
@@ -27,7 +26,7 @@ const Landing = () => {
             </section>
             <InfiniteSlider />
         </>
-    )
-}
+    );
+};
 
-export default Landing
+export default ReusableLanding;

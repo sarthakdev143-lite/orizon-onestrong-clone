@@ -1,5 +1,5 @@
 import React from 'react'
-import Landing from './Landing/Landing'
+import Landing from './LandingServices'
 import OurApproach from '../Home/OurApproach/OurApproach'
 import TechnologyStack from '../Home/TechnologyStack/TechnologyStack'
 import Case_Studies from '../Home/Case_Studies/Case_Studies'
