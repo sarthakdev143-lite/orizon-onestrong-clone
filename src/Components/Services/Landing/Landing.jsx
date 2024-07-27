@@ -1,26 +1,27 @@
 import React from 'react'
 import Header from '../../Header/Header'
 import './Landing.css'
-import InfiniteSlider from './InfiniteSlider'
+import bgImage from './services-landing-background.jpg'
+import InfiniteSlider from '../../Home/Landing/InfiniteSlider'
 
 const Landing = () => {
     return (
         <>
-            <section id='landing-home'>
+            <section id='landing-services'>
                 <Header />
                 <figure>
-                    <video autoPlay muted loop playsInline src={require('./bg.mp4')}></video>
+                    <img src={bgImage} alt="Background Image" />
                 </figure>
                 <div id='landing-content'>
                     <article>
-                        <h1>CUSTOMIZED SOFTWARE SOLUTIONS FOR BUSINESS</h1>
-                        <p>We worked with Orizon in a startup project. They are a professional and flexible team with different experience in many frameworks.</p>
+                        <h1>Our Services</h1>
+                        <p>We create innovative custom software solutions that keep up with the latest developments in the technology industry.</p>
                     </article>
                     <div className="lets-discuss">
+                        <p>let's discuss your project</p>
                         <span class="material-symbols-outlined">
                             arrow_outward
                         </span>
-                        <p>let's discuss your project</p>
                     </div>
                 </div>
             </section>

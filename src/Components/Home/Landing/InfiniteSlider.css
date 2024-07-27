@@ -4,7 +4,7 @@
     position: relative;
     display: flex;
     justify-content: flex-start;
-    border-bottom: 0.2rem rgb(180, 180, 180) solid;
+    border-bottom: 0.2rem #ddd solid;
 
     &::after,
     &::before {
@@ -29,7 +29,7 @@
     }
 
     .slider-item {
-        padding: 1rem 3rem;
+        padding: 1.5rem 3rem;
         width: 17rem;
         opacity: 0.4;
 

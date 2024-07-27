@@ -1,0 +1,66 @@
+import React, { useState } from 'react'
+import './OurServices.css'
+
+const services = [
+  { id: 'service1', index: '01/', name: 'Evaluation & Design', tags: ['research & development', 'scoping session', 'ui review', 'ui design', 'branding', 'product design'], text: 'Our Evaluation & Design process serves as a solid foundation for the successful development and deployment of custom software solutions.' },
+  { id: 'service2', index: '02/', name: 'Custom Software', tags: ['crm development', 'erp software', 'cloud app', 'webapp', 'branding', 'product development', 'nft marketplace'], text: 'Our Evaluation & Design process serves as a solid foundation for the successful development and deployment of custom software solutions.' },
+  { id: 'service3', index: '03/', name: 'Web Development', tags: ['frontend', 'php backend', 'java', 'node.js', '.net'], text: 'Our Evaluation & Design process serves as a solid foundation for the successful development and deployment of custom software solutions.' },
+  { id: 'service4', index: '04/', name: 'Mobile Development', tags: ['ios app', 'android app', 'react native', 'flutter', 'cross-platform', 'hybrid app'], text: 'Our Evaluation & Design process serves as a solid foundation for the successful development and deployment of custom software solutions.' },
+];
+
+const OurServices = () => {
+  return (
+    <>
+      <section id="our-services">
+        <div id="our-services-wrapper">
+          <div className="head">
+            <h1>OUR SERVICES</h1>
+            <p>Tailored to you  we create custom software specifically designed to meet your unique business needs.</p>
+          </div>
+          <div className="content">
+            <div className="left">
+              <div className="wrapper-left">
+                <article>
+                  <p>Order a free consultation – our experts will select the most effective solution</p>
+                </article>
+                <form action="#">
+                  <input type="text" placeholder='Phone Number*' />
+                  <input type="text" placeholder='Your Email*' />
+                  <input type="submit" value="ORDER A CONSULTATION" />
+                </form>
+              </div>
+            </div>
+            <div className="right">
+              {
+                services.map(service => (
+                  <div
+                    id={service.id}
+                    key={service.id}
+                    className='service'
+                  >
+                    <div className="wrap">
+                      <h2>{service.index}</h2>
+                      <div className="sub-wrap">
+                        <h1>{service.name}</h1>
+                        <p>{service.text}</p>
+                      </div>
+                    </div>
+                    <div className="tags">
+                      {
+                        service.tags.map(tag => (
+                          <div key={tag} className="tag">{tag}</div>
+                        ))
+                      }
+                    </div>
+                  </div>
+                ))
+              }
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default OurServices
