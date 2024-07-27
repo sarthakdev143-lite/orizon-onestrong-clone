@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/orizon-onestrong-clone/static/css/main.e1b19a81.css",
-    "main.js": "/orizon-onestrong-clone/static/js/main.16d22e5b.js",
+    "main.css": "/orizon-onestrong-clone/static/css/main.33b94f6f.css",
+    "main.js": "/orizon-onestrong-clone/static/js/main.5706fbd0.js",
     "static/js/453.ce203ff8.chunk.js": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js",
     "static/media/bg.mp4": "/orizon-onestrong-clone/static/media/bg.1b3f6e67fea8796c9fd9.mp4",
     "static/media/slide3.png": "/orizon-onestrong-clone/static/media/slide3.2fec21a24a74ac0963fa.png",
@@ -22,6 +22,8 @@
     "static/media/why-choose-us.jpg": "/orizon-onestrong-clone/static/media/why-choose-us.2479936719846d06e19b.jpg",
     "static/media/EthanJohnson.jpg": "/orizon-onestrong-clone/static/media/EthanJohnson.c9a667ca31d2e4bfc1e7.jpg",
     "static/media/BenjaminSmith.jpg": "/orizon-onestrong-clone/static/media/BenjaminSmith.547d6511c83fa2a4abd6.jpg",
+    "static/media/man.jpg": "/orizon-onestrong-clone/static/media/man.547d6511c83fa2a4abd6.jpg",
+    "static/media/LandingServicesDetailBg.jpg": "/orizon-onestrong-clone/static/media/LandingServicesDetailBg.ed404f559421b40bd54c.jpg",
     "static/media/government.jpg": "/orizon-onestrong-clone/static/media/government.2dea8d7b635224068c4a.jpg",
     "static/media/SamuelAnderson.jpg": "/orizon-onestrong-clone/static/media/SamuelAnderson.5a95c11e036780f2ef9d.jpg",
     "static/media/oil&gas.jpg": "/orizon-onestrong-clone/static/media/oil&gas.7a85d9cad53df7cab297.jpg",
@@ -80,12 +82,12 @@
     "static/media/slick.ttf": "/orizon-onestrong-clone/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/orizon-onestrong-clone/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/orizon-onestrong-clone/index.html",
-    "main.e1b19a81.css.map": "/orizon-onestrong-clone/static/css/main.e1b19a81.css.map",
-    "main.16d22e5b.js.map": "/orizon-onestrong-clone/static/js/main.16d22e5b.js.map",
+    "main.33b94f6f.css.map": "/orizon-onestrong-clone/static/css/main.33b94f6f.css.map",
+    "main.5706fbd0.js.map": "/orizon-onestrong-clone/static/js/main.5706fbd0.js.map",
     "453.ce203ff8.chunk.js.map": "/orizon-onestrong-clone/static/js/453.ce203ff8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1b19a81.css",
-    "static/js/main.16d22e5b.js"
+    "static/css/main.33b94f6f.css",
+    "static/js/main.5706fbd0.js"
   ]
 }
