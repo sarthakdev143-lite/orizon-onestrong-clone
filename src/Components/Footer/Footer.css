@@ -279,24 +279,28 @@ footer {
                             display: flex;
                             gap: 0.8rem;
 
-                            li a {
-                                font-size: 1.2rem;
-                                padding: 0.6rem;
-                                width: 2.8rem;
-                                height: 2.8rem;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                border-radius: 50%;
-                                text-decoration: none;
-                                color: #000;
-                                background: #fff;
-                                transition: all ease 0.3s, color ease 0.15s;
+                            li {
+                                width: fit-content;
 
-                                &:hover {
-                                    background: #F55E2F;
-                                    color: #fff;
-                                    transform: translateY(-0.5rem);
+                                a {
+                                    font-size: 1.2rem;
+                                    padding: 0.6rem;
+                                    width: 2.8rem;
+                                    height: 2.8rem;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    border-radius: 50%;
+                                    text-decoration: none;
+                                    color: #000;
+                                    background: #fff;
+                                    transition: all ease 0.3s, color ease 0.15s;
+
+                                    &:hover {
+                                        background: #F55E2F;
+                                        color: #fff;
+                                        transform: translateY(-0.5rem);
+                                    }
                                 }
                             }
                         }
