@@ -276,7 +276,8 @@ footer {
                         }
 
                         ul {
-                            display: flex;
+                            display: flex !important;
+                            flex-wrap: nowrap;
                             gap: 0.8rem;
 
                             a {
