@@ -33,7 +33,8 @@
             border-top: 0.1rem solid #dfdfdf;
 
             .left {
-                max-width: 33.3rem;
+                min-width: 33.2rem;
+                max-width: 33.2rem;
                 border-right: 0.1rem solid #dfdfdf;
                 padding: 4rem 4rem 0 0;
 
@@ -85,8 +86,7 @@
                         transition: all ease 0.2s;
 
                         &:hover {
-                            background-color: #fff;
-                            color: #000;
+                            background: #da5228;
                         }
                     }
                 }
@@ -103,12 +103,38 @@
                     border-top: 0.1rem solid #ddd;
                     padding-top: 4rem;
                     display: flex;
-                    flex-direction: column;
+                    justify-content: space-between;
                     gap: 3rem;
 
                     &:first-child {
                         border-top: none;
                         padding-top: 0;
+                    }
+
+                    .super-wrap {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2rem;
+
+                        &.shrink {
+                            max-width: 38rem;
+                        }
+                    }
+
+                    &>figure {
+                        width: 41rem;
+                        height: 23rem;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            border-radius: 2rem;
+                        }
+
+                        &.disappear {
+                            display: none;
+                        }
                     }
 
                     .wrap {
