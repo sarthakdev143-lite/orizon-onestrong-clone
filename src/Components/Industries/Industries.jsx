@@ -1,6 +1,9 @@
 import React from 'react'
-import IndustriesLanding from './IndustriesLanding.jsx'
 import './Industries.css'
+
+import bgImage from '../Footer/imgs/footer-bg.jpg'
+import ReusableLanding from '../ReusableLanding/ReusableLanding';
+
 import OurApproach from '../Home/OurApproach/OurApproach.jsx'
 import ClientReviews from '../Home/ClientReviews/ClientReviews.jsx'
 import Case_Studies from '../Home/Case_Studies/Case_Studies.jsx'
@@ -57,9 +60,19 @@ const services = [
 ];
 
 const Industries = () => {
+  const landingData = {
+    bgImage,
+    title: "Digital Acceleration with IT Solution",
+  };
+
   return (
     <>
-      <IndustriesLanding />
+      <div id="industries-landing">
+        <ReusableLanding
+          bgImage={landingData.bgImage}
+          title={landingData.title}
+        />
+      </div>
       <OurServices services={services} />
       <OurApproach />
       <ClientReviews />
