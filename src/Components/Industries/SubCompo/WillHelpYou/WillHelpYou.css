@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+#will-help-you-industries {
+    width: 100%;
+
+    #will-help-you-wrapper-industries {
+        width: 100%;
+        max-width: 126rem;
+        margin: 0 auto;
+        padding: 8rem 1.5rem;
+
+        .head {
+            width: 100%;
+            padding-bottom: 4rem;
+
+            h1 {
+                font-size: 5.5rem;
+                font-weight: 1000;
+                text-transform: uppercase;
+            }
+        }
+
+        .content {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-top: 0.1rem solid #dfdfdf;
+
+            .left {
+                max-width: 33rem;
+                border-right: 0.1rem solid #dfdfdf;
+                padding: 4rem 4rem 0 0;
+
+                .wrapper-left {
+                    position: sticky;
+                    top: 4rem;
+                }
+
+                article {
+                    width: 100%;
+                    padding-bottom: 3rem;
+
+                    p {
+                        font-size: 1.85rem;
+                        font-weight: 300;
+                    }
+                }
+
+                form {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.6rem;
+
+                    input {
+                        width: 100%;
+                        padding: 1.5rem;
+                        border-radius: 2rem;
+                        border: none;
+                        border-bottom: 0.1rem solid #ccc;
+                        background: #eee;
+                        font-size: 1.2rem;
+                        color: #fff;
+                        transition: border-color 0.3s ease;
+
+                        &:hover {
+                            border-color: #333;
+                        }
+                    }
+
+                    input[type="submit"] {
+                        background-color: #F55E2F;
+                        color: #fff;
+                        cursor: pointer;
+                        height: 4.3rem;
+                        border: none;
+                        border-radius: 1.7rem;
+                        font-size: 1.15rem;
+                        transition: all ease 0.2s;
+
+                        &:hover {
+                            background-color: #fff;
+                            color: #000;
+                        }
+                    }
+                }
+            }
+
+            .right {
+                padding: 4rem 0 0 4rem;
+                display: flex;
+                align-items: center;
+
+                .helps {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 3rem;
+
+                    .help {
+                        display: flex;
+                        gap: 3rem;
+                        transition: all ease 0.4s;
+
+                        &:hover {
+                            transform: translateY(-0.75rem);
+                        }
+
+                        i {
+                            font-size: 2rem;
+                            color: #F55D2D;
+                        }
+
+                        .wrap {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 0.8rem;
+
+                            h1 {
+                                font-size: 1.6rem;
+                            }
+
+                            p {
+                                font-size: 1.15rem;
+                                line-height: 2rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

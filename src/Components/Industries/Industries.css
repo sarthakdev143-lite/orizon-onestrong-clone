@@ -7,3 +7,76 @@
         line-height: 6.9rem;
     }
 }
+
+#lets-talk {
+    margin-top: 9rem;
+    width: 100%;
+
+    #lets-talk-wrapper {
+        height: 42rem;
+        max-width: 125rem;
+        margin: 0 auto;
+        background: #000;
+        border-radius: 2rem;
+        overflow: hidden;
+
+        article {
+            width: 100%;
+            padding-left: 5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 1.7rem;
+            height: 100%;
+            background: url('./SubCompo/LetsTalk/letsTalk.jpg');
+            background-position: center right;
+            background-repeat: no-repeat;
+            background-size: contain;
+            color: #fff;
+
+            h1 {
+                font-size: 5.5rem;
+                max-width: 40%;
+                line-height: 5.5rem;
+            }
+
+            &>p {
+                max-width: 35%;
+                font-size: 1.15rem;
+                color: #ccc;
+                line-height: 2rem;
+            }
+
+            .lets-discuss {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #F55D2D;
+                height: 4.5rem;
+                width: 25rem;
+                border-radius: 2rem;
+                gap: 1rem;
+                transition: all ease 0.3s;
+                margin-top: 3rem;
+
+                &:hover {
+                    background: #fff;
+                    color: #000;
+                }
+
+                span {
+                    font-size: 2rem;
+                    font-weight: 200;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    font-size: 1.1rem;
+                    max-width: 80%;
+                    text-align: center;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

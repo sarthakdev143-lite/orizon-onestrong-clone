@@ -71,6 +71,7 @@ const Industries = () => {
         <ReusableLanding
           bgImage={landingData.bgImage}
           title={landingData.title}
+          showSlider={true}
         />
       </div>
       <OurServices services={services} />

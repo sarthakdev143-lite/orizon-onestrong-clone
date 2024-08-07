@@ -13,6 +13,7 @@ const LandingServicesDetail = () => {
             <ReusableLanding
                 bgImage={landingData.bgImage}
                 title={landingData.title}
+                showSlider={true}
             />
         </>
     )

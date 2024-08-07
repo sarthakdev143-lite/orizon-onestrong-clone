@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import InfiniteSlider from '../Home/Landing/InfiniteSlider';
 import './Landing.css'
 
-const ReusableLanding = ({ bgImage, title }) => {
+const ReusableLanding = ({ bgImage, title, showSlider }) => {
     return (
         <>
             <section id='reusable-landing'>
@@ -24,7 +24,7 @@ const ReusableLanding = ({ bgImage, title }) => {
                     </div>
                 </div>
             </section>
-            <InfiniteSlider />
+            {showSlider && <InfiniteSlider />}
         </>
     );
 };

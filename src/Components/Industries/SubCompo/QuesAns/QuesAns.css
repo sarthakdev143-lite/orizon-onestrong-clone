@@ -1,0 +1,89 @@
+#ques-ans {
+    #ques-ans-wrapper {
+        width: 100%;
+        max-width: 125rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 1rem 0 1rem;
+
+        .upper {
+            border-bottom: 0.1rem solid #dedede;
+
+            h1 {
+                font-size: 5.4rem;
+                text-transform: uppercase;
+                font-weight: 1000;
+                max-width: 75%;
+                line-height: 5.5rem;
+                padding-bottom: 5rem;
+            }
+        }
+
+        .lower {
+            display: flex;
+
+            article.left {
+                max-width: 31rem;
+                border-right: 0.1rem #dedede solid;
+                padding: 4.2rem 4rem 0 0;
+
+                p {
+                    line-height: 2.2rem;
+                    font-size: 1.4rem;
+                }
+            }
+
+            .right {
+                width: 100%;
+                padding: 2rem 0 0 4rem;
+
+                .questions {
+                    display: flex;
+                    flex-direction: column;
+
+                    .question {
+                        display: flex;
+                        flex-direction: column;
+                        border-bottom: 0.1rem solid #dedede;
+                        padding: 2rem;
+
+                        .ques {
+                            display: flex;
+                            justify-content: space-between;
+                            cursor: pointer;
+
+                            h1 {
+                                font-size: 1.6rem;
+                                font-weight: bold;
+                                transition: all ease 0.3s;
+
+                                &.open {
+                                    color: #f66233;
+                                }
+                            }
+                        }
+
+                        .answer {
+                            max-height: 0;
+                            overflow: hidden;
+                            transition: all ease 4s;
+                            
+                            &.open {
+                                max-height: 100rem;
+                                transition: all ease 4s;
+                            }
+
+                            p {
+                                margin-top: 1rem;
+                                line-height: 2rem;
+                                font-size: 1.3rem;
+                                padding: 1rem 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
