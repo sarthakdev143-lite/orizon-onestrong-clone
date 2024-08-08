@@ -3,7 +3,7 @@ import ReusableLanding from '../ReusableLanding/ReusableLanding'
 import faq from './faq.jpg';
 import OurApproach from '../Home/OurApproach/OurApproach';
 import LetsDiscuss from '../Services/LetsDiscuss/LetsDiscuss';
-import QuesAns from '../Industries/SubCompo/QuesAns/QuesAns';
+import QuesAnsChild from '../Industries/SubCompo/QuesAns/QuesAnsChild';
 
 const questions = [
   { question: "What is custom software development?", answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur." },
@@ -30,7 +30,7 @@ const FAQ = () => {
         title={landingData.title}
         showSlider={true}
       />
-      <QuesAns questions={questions} />
+      <QuesAnsChild questions={questions} />
       <OurApproach />
       <LetsDiscuss />
     </>
