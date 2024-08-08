@@ -16,17 +16,17 @@ const studies_boxes = [
     { src: Nutrition_Coach_and_Nutritionist, alt: "Nutrition Coach & Nutritionist", tag: "custom software", industry: "web development", title: "Nutrition Coach & Nutritionist" }
 ]
 
-const Case_Studies = () => {
+const Case_Studies = ({ showHead }) => {
     return (
-        <section id='case-studies' className='case-studies'>
+        <section id='case-studies' className={`case-studies ${!showHead ? 'used' : ''}`}>
             <div className="studies-wrapper">
-                <h1 className='heading'>
+                {showHead && <h1 className='heading'>
                     Case Studies
                     <button>
                         All Case
                         <span className="material-symbols-outlined">arrow_outward</span>
                     </button>
-                </h1>
+                </h1>}
                 <div className="studies">
                     {studies_boxes.map((box, index) => (
                         <article key={index} className="box">

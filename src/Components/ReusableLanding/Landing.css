@@ -4,6 +4,10 @@
     background: #9F9F9F;
     position: relative;
 
+    &.fullHeight {
+        height: 64rem;
+    }
+
     figure {
         position: absolute;
         z-index: 0;
@@ -31,6 +35,10 @@
         display: flex;
         flex-direction: column;
         gap: 2.5rem;
+
+        &.dragUp {
+            bottom: 25%;
+        }
 
         &>* {
             color: #fff;
