@@ -14,7 +14,7 @@ const ReusableLanding = ({ bgImage, title, showSlider, fullHeight, landingText }
                 <div id='landing-content' className={fullHeight ? 'dragUp' : ''}>
                     <article>
                         <h1>{title}</h1>
-                        {landingText && <p>We create innovative custom software solutions that keep up with the latest developments in the technology industry.</p>}
+                        {!landingText && <p>We create innovative custom software solutions that keep up with the latest developments in the technology industry.</p>}
                     </article>
                     <div className="lets-discuss">
                         <p>let's discuss your project</p>

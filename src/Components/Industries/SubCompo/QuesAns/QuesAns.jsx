@@ -1,31 +1,16 @@
 import React, { useState } from 'react';
 import './QuesAns.css';
 
-const QuesAns = () => {
-    const [openedQuestionIndex, setOpenedQuestionIndex] = useState(null);
+const questions = [
+    { question: "What is custom software development?", answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.", },
+    { question: "Why should I choose custom software over off-the-shelf solutions?", answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.", },
+    { question: "How long does it take to develop custom software?", answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.", },
+    { question: "How do you ensure the security of custom software?", answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.", },
+    { question: "How do you handle software updates and maintenance?", answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.", },
+];
 
-    const questions = [
-        {
-            question: "What is custom software development?",
-            answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
-        },
-        {
-            question: "Why should I choose custom software over off-the-shelf solutions?",
-            answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
-        },
-        {
-            question: "How long does it take to develop custom software?",
-            answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
-        },
-        {
-            question: "How do you ensure the security of custom software?",
-            answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
-        },
-        {
-            question: "How do you handle software updates and maintenance?",
-            answer: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur.",
-        },
-    ];
+const QuesAnsChild = ({ questions }) => {
+    const [openedQuestionIndex, setOpenedQuestionIndex] = useState(null);
 
     const toggleQuestion = (index) => {
         setOpenedQuestionIndex(openedQuestionIndex === index ? null : index);
@@ -68,6 +53,10 @@ const QuesAns = () => {
             </div>
         </section>
     );
+};
+
+const QuesAns = ({ questions }) => {
+    return <QuesAnsChild questions={questions} />;
 };
 
 export default QuesAns;

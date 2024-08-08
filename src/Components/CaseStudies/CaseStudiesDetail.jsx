@@ -28,7 +28,7 @@ const CaseStudiesDetail = () => {
         <ReusableLanding
           bgImage={landingData.bgImage}
           title={landingData.title}
-          landingText={false}
+          landingText={true}
         />
         <div className="blank"></div>
         <div className="wrapper">
