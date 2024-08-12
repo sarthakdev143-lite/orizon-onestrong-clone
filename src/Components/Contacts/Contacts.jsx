@@ -3,6 +3,7 @@ import ReusableLanding from '../ReusableLanding/ReusableLanding'
 import bgImage from '../Industries/SubCompo/LetsTalk/letsTalk.jpg'
 import LetsDiscuss from './SubCompo/LetsDiscuss/LetsDiscuss'
 import OurOffice from './SubCompo/OurOffice/OurOffice'
+import './Contacts.css'
 
 const Contacts = () => {
   const landingData = {
@@ -23,7 +24,7 @@ const Contacts = () => {
       </div>
       <LetsDiscuss />
       <div className="google-map-wrapper">
-        <iframe loading="lazy" width="100%" height="400rem" src="https://maps.google.com/maps?q=Indore%2C%20India&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" title="Indore, India" aria-label="Indore, India"></iframe>
+        <iframe loading="lazy" width="100%" height="100%" src="https://maps.google.com/maps?q=Indore%2C%20India&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" title="Indore, India" aria-label="Indore, India"></iframe>
       </div>
       <OurOffice />
     </>

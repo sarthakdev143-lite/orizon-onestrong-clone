@@ -1,0 +1,7 @@
+.google-map-wrapper {
+    max-width: 123rem;
+    margin: 0 auto;
+    border-radius: 1.8rem;
+    overflow: hidden;
+    height: 32rem;
+}
