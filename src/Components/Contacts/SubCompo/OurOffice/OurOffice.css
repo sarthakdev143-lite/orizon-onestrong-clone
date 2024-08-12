@@ -1,0 +1,54 @@
+#our-office {
+    width: 100%;
+    padding: 7rem 0 0 0;
+
+    #our-office-wrapper {
+        display: flex;
+        max-width: 124rem;
+        margin: 0 auto;
+        border-top: 0.1rem solid #dedede;
+
+        .left {
+            width: 31rem;
+            border-right: 0.1rem solid #dedede;
+            padding: 5rem 10rem 0 0;
+
+            h1 {
+                font-size: 5.5rem;
+                font-weight: 1000;
+                line-height: 5rem;
+            }
+        }
+
+        .right {
+            padding: 2rem 0 0 4rem;
+            width: calc(100% - 31rem);
+
+            .element {
+                display: flex;
+                padding: 3rem 0 3rem 1rem;
+                gap: 1.9rem;
+
+                &:not(:last-child) {
+                    border-bottom: 0.1rem solid #dedede;
+                }
+
+                .index {
+                    color: #F55D2D;
+                    font-size: 1.65rem;
+                    transform: translateY(-0.5rem);
+                }
+
+                .type {
+                    font-weight: 300;
+                    font-size: 1.38rem;
+                }
+
+                .name {
+                    font-size: 3.5rem;
+                    font-weight: 1000;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.sub-wrap {
+    transform: translateY(-3rem);
+
+    h3 {
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+        font-weight: bold;
+        background: #181818;
+        color: #ddd;
+        border-radius: 4rem;
+        width: fit-content;
+    }
+}
+
+#pricing .tags {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    width: 50%;
+    margin-top: 2rem;
+
+    .pricing-checkbox {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-transform: uppercase;
+        font-family: 'red hat mono';
+
+        i {
+            color: #F55D2D;
+            font-size: 1.7rem;
+        }
+    }
+}

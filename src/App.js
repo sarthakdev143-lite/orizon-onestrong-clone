@@ -14,8 +14,8 @@ import FAQ from './Components/FAQ/FAQ.jsx';
 import Team from './Components/Team/Team.jsx';
 import Review from './Components/Review/Review.jsx';
 import Pricing from './Components/Pricing/Pricing.jsx';
-import NotFound from './Components/NotFound/NotFound.jsx';
 import Contacts from './Components/Contacts/Contacts.jsx';
+import Error404 from './Components/Error404/Error404.jsx';
 
 const App = () => {
   return (
@@ -34,9 +34,9 @@ const App = () => {
           <Route path="/team" element={<Team />} />
           <Route path="/review" element={<Review />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/404" element={<NotFound />} />
+          <Route path="/404" element={<Error404 />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </main>
       <Footer />

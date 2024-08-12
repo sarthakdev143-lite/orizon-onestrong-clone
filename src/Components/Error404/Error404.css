@@ -1,0 +1,90 @@
+#not-found {
+    width: 100%;
+    margin-bottom: -10rem;
+
+    #not-found-wrapper {
+        width: 100%;
+        max-width: 129rem;
+        margin: 0 auto;
+        position: relative;
+        color: #fff;
+        z-index: 2;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: -1;
+            background: url('./Error404Bg.jpg') no-repeat;
+            opacity: 0.5;
+            margin-left: -13rem;
+        }
+
+        .content {
+            height: inherit;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding-top: 12rem;
+
+            h1:nth-child(1) {
+                font-size: 2.6rem;
+                font-weight: 600;
+            }
+
+            h1:nth-child(2) {
+                font-size: 23rem;
+                line-height: 18rem;
+                font-weight: 700;
+            }
+
+            h1:nth-child(3) {
+                font-size: 4.5rem;
+                font-weight: 1000;
+                letter-spacing: -0.05rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                color: #bbb;
+                max-width: 29%;
+                text-align: center;
+            }
+
+            .nav-link {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #F55D2D;
+                height: 4.5rem;
+                transform: translateY(-2.5rem);
+                width: 18rem;
+                border-radius: 0.8rem;
+                gap: 1rem;
+                transition: all ease 0.3s;
+                margin-top: 3rem;
+                text-decoration: none;
+                color: #fff;
+                font-size: 1.2rem;
+
+                &:hover {
+                    background: #fff;
+                    color: #000;
+                }
+
+                span {
+                    font-size: 2rem;
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+}
+
+body:has(main #not-found) {
+    background-color: #000;
+}
