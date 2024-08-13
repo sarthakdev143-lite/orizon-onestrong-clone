@@ -9,7 +9,7 @@ const ReusableLanding = ({ bgImage, title, showSlider, fullHeight, landingText, 
             <section id='reusable-landing' className={fullHeight ? 'fullHeight' : ''}>
                 <Header />
                 <figure>
-                    <img src={bgImage} alt="Background Image" />
+                    <img src={bgImage} alt="Background img" />
                 </figure>
                 <div id='landing-content' className={fullHeight ? 'dragUp' : '' || showButton ? 'dragUp' : ''}>
                     <article>

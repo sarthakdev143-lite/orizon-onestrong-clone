@@ -5,11 +5,19 @@
 .meet-the-team {
     width: 100%;
 
-    marquee {
-        width: 100%;
-        font-size: 13rem;
-        color: #EBEBEB;
-        font-weight: 1000;
+    .marquee {
+        max-width: 100%;
+        overflow: hidden;
+        position: relative;
+        padding: 1rem 0;
+
+        .marquee-content {
+            font-size: 13rem;
+            color: #EBEBEB;
+            font-weight: 1000;
+            white-space: nowrap;
+            animation: scrollLeft 60s linear infinite;
+        }
     }
 
     .our-teams {
@@ -18,7 +26,7 @@
         padding: 7rem 0 7rem 6.5rem;
         border-radius: 2rem;
         overflow: hidden;
-        
+
         .our-teams-wrapper {
             display: flex;
             flex-direction: column;
@@ -90,5 +98,15 @@
                 }
             }
         }
+    }
+}
+
+@keyframes scrollLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-100%);
     }
 }

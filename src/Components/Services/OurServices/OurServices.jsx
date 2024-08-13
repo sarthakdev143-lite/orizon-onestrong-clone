@@ -48,7 +48,7 @@ const OurServices = ({ services }) => {
                       </div>
                     </div>
                     <figure className={service.imgSrc ? '' : 'disappear'}>
-                      <img src={service.imgSrc} />
+                      <img src={service.imgSrc} alt='our service img' />
                     </figure>
                   </div>
                 ))

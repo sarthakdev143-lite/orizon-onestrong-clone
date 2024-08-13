@@ -38,7 +38,11 @@ const sliderSettings = {
 const MeetTheTeam = () => {
     return (
         <section className="meet-the-team">
-            <marquee behavior="scroll" direction="left">Meet the Team ✺ Meet the Team ✺ Meet the Team ✺ Meet the Team</marquee>
+            <div className="marquee">
+                <div className="marquee-content">
+                    Meet the Team ✺ Meet the Team ✺ Meet the Team ✺ Meet the Team
+                </div>
+            </div>
             <div className="our-teams">
                 <div className="our-teams-wrapper">
                     <h1 className='heading'>our teams</h1>
@@ -47,7 +51,7 @@ const MeetTheTeam = () => {
                             {TeamMembers.map((member, index) => (
                                 <div key={index} className="team-member">
                                     <figure>
-                                        <img src={member.imgSrc} alt="Team Member Photo" />
+                                        <img src={member.imgSrc} alt="Team Member Pic" />
                                     </figure>
                                     <figcaption>
                                         <h1>{member.name}</h1>
@@ -64,3 +68,4 @@ const MeetTheTeam = () => {
 }
 
 export default MeetTheTeam
+ 

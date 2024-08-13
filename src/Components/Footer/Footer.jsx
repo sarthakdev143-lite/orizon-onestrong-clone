@@ -1,5 +1,6 @@
-import React from 'react'
-import './Footer.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Footer.css';
 
 import Logo from './imgs/logo.png';
 import CeoImage from './imgs/ceo-image.jpg';
@@ -16,22 +17,22 @@ const Footer = () => {
                     <section className="part-1 part">
                         <div className="profile">
                             <figure>
-                                <img src={CeoImage} alt="Picture" />
+                                <img src={CeoImage} alt="ceo's img" />
                             </figure>
                             <figcaption>
                                 <h1>Ethan Johnson, CEO</h1>
                                 <div className="contacts">
                                     <div className="contact email">
-                                        <i class="ri-mail-line"></i> info@orizon.com
+                                        <i className="ri-mail-line"></i> info@orizon.com
                                     </div>
                                     <div className="contact phone">
-                                        <i class="ri-phone-fill"></i> +021-8742-852
+                                        <i className="ri-phone-fill"></i> +021-8742-852
                                     </div>
                                     <div className="contact location">
-                                        <i class="ri-map-pin-2-fill"></i> Jl. Soekarno-hatta
+                                        <i className="ri-map-pin-2-fill"></i> Jl. Soekarno-hatta
                                     </div>
                                     <div className="contact insta">
-                                        <i class="ri-instagram-line"></i> @orizon
+                                        <i className="ri-instagram-line"></i> @orizon
                                     </div>
                                 </div>
                             </figcaption>
@@ -65,9 +66,9 @@ const Footer = () => {
                             </div>
                             <textarea name="" id="" placeholder='Message' required ></textarea>
                             <div className="checkbox">
-                                <label class="container">
+                                <label className="container">
                                     <input type="checkbox" required />
-                                    <div class="checkmark"></div>
+                                    <div className="checkmark"></div>
                                 </label>
                                 <p>I agree that my personal information will be processed and stored by Orizon.</p>
                             </div>
@@ -82,31 +83,31 @@ const Footer = () => {
                                 </figure>
                                 <figcaption>Orizon — software product development services.</figcaption>
                                 <ul type='none'>
-                                    <a href="#" className='logo-a'>
+                                    <Link to="#" className='logo-a'>
                                         <li>
-                                            <i class="ri-linkedin-fill"></i>
+                                            <i className="ri-linkedin-fill"></i>
                                         </li>
-                                    </a>
-                                    <a href="#" className='logo-a'>
+                                    </Link>
+                                    <Link to="#" className='logo-a'>
                                         <li>
-                                            <i class="ri-facebook-fill"></i>
+                                            <i className="ri-facebook-fill"></i>
                                         </li>
-                                    </a>
-                                    <a href="#" className='logo-a'>
+                                    </Link>
+                                    <Link to="#" className='logo-a'>
                                         <li>
-                                            <i class="ri-twitter-fill"></i>
+                                            <i className="ri-twitter-fill"></i>
                                         </li>
-                                    </a>
-                                    <a href="#" className='logo-a'>
+                                    </Link>
+                                    <Link to="#" className='logo-a'>
                                         <li>
-                                            <i class="ri-behance-fill"></i>
+                                            <i className="ri-behance-fill"></i>
                                         </li>
-                                    </a>
-                                    <a href="#" className='logo-a'>
+                                    </Link>
+                                    <Link to="#" className='logo-a'>
                                         <li>
-                                            <i class="ri-instagram-line"></i>
+                                            <i className="ri-instagram-line"></i>
                                         </li>
-                                    </a>
+                                    </Link>
                                 </ul>
                             </div>
                             <div className="right">
@@ -115,19 +116,19 @@ const Footer = () => {
                                         <h2>Consulting</h2>
                                         <ul type='none'>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Discovery Phase
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Technology Consulting
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     IIT Audit Services
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -135,14 +136,14 @@ const Footer = () => {
                                         <h2>Product Design</h2>
                                         <ul>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Product Experience Design
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Business Analysis
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -152,39 +153,39 @@ const Footer = () => {
                                         <h1>Services</h1>
                                         <ul>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Evaluation & Design
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    Custom Sofware
-                                                </a>
+                                                <Link to="#">
+                                                    Custom Software
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Web Development
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Mobile Development
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Maintenance & Support
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Integration Services
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Cloud Infrastructure
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -194,14 +195,14 @@ const Footer = () => {
                                         <h1>About us</h1>
                                         <ul>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     About us
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
+                                                <Link to="#">
                                                     Case Studies
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -209,19 +210,19 @@ const Footer = () => {
                                         <h1>Contact us</h1>
                                         <ul>
                                             <li>
-                                                <a href="#">
-                                                    <i class="ri-phone-fill"></i> +021-5557-874
-                                                </a>
+                                                <Link to="#">
+                                                    <i className="ri-phone-fill"></i> +021-5557-874
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i class="ri-map-pin-2-fill"></i> Jl. Soekarno-hatta
-                                                </a>
+                                                <Link to="#">
+                                                    <i className="ri-map-pin-2-fill"></i> Jl. Soekarno-hatta
+                                                </Link>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i class="ri-mail-fill"></i> helloorizon@mail.com
-                                                </a>
+                                                <Link to="#">
+                                                    <i className="ri-mail-fill"></i> helloorizon@mail.com
+                                                </Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -232,13 +233,13 @@ const Footer = () => {
                 </div>
                 <div className="bottom">
                     <div className="left">
-                        <a href="#">
+                        <Link to="#">
                             <h5>PRIVACY POLICY</h5>
-                        </a>
+                        </Link>
                         <span className='divider'>|</span>
-                        <a href="#">
+                        <Link to="#">
                             <h5>SITEMAP</h5>
-                        </a>
+                        </Link>
                     </div>
                     <div className="right">
                         <h5>COPYRIGHT © 2023 ORIZON</h5>
@@ -248,7 +249,7 @@ const Footer = () => {
                 </div>
             </div>
         </footer>
-    )
+    );
 }
 
-export default Footer
+export default Footer;

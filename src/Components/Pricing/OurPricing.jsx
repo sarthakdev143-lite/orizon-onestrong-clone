@@ -59,7 +59,7 @@ const OurPricing = () => {
                                             </div>
                                         </div>
                                         <figure className={service.imgSrc ? '' : 'disappear'}>
-                                            <img src={service.imgSrc} />
+                                            <img src={service.imgSrc} alt='our pricing pic' />
                                         </figure>
                                     </div>
                                 ))

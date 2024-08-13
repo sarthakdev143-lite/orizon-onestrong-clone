@@ -26,7 +26,7 @@ const ChooseBestDevs = () => {
                 </div>
                 <div className="lower">
                     <figure className="left">
-                        <img src={laptop} alt="Laptop image" />
+                        <img src={laptop} alt="Laptop img" />
                     </figure>
                     <div className="right">
                         <div className="cards">
