@@ -1,5 +1,5 @@
 import React from 'react';
-import './Case_Studies.css';
+import './CaseStudies.css';
 import Workflow_System_Energy from './imgs/workflow-system-energy.jpg';
 import SaaS_for_End_to_End_Analytics from './imgs/saas-for-end-to-end-analytics.jpg';
 import Workload_Management from './imgs/workload-management.jpg';
@@ -16,7 +16,7 @@ const studies_boxes = [
     { src: Nutrition_Coach_and_Nutritionist, alt: "Nutrition Coach & Nutritionist", tag: "custom software", industry: "web development", title: "Nutrition Coach & Nutritionist" }
 ]
 
-const Case_Studies = ({ showHead }) => {
+const CaseStudies = ({ showHead }) => {
     return (
         <section id='case-studies' className={`case-studies ${!showHead ? 'used' : ''}`}>
             <div className="studies-wrapper">
@@ -49,4 +49,4 @@ const Case_Studies = ({ showHead }) => {
     );
 };
 
-export default Case_Studies;
+export default CaseStudies;

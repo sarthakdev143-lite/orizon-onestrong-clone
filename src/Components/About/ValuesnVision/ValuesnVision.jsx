@@ -23,7 +23,7 @@ const ValuesnVision = () => {
                     </div>
                     <div className="right">
                         <figure>
-                            <img src={ValuenVision} alt="" />
+                            <img src={ValuenVision} alt="Value and Vision" />
                         </figure>
                         <article>
                             <p>To be the leading provider of custom software solutions, empowering businesses worldwide with cutting-edge technology to achieve their strategic goals.</p>

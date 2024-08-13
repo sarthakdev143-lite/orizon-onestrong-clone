@@ -7,7 +7,7 @@ import Services from './Components/Services/Services';
 import ServicesDetail from './Components/Services/ServicesDetail.jsx';
 import Industries from './Components/Industries/Industries.jsx';
 import IndustryDetail from './Components/Industries/IndustryDetail.jsx';
-import CaseStudies from './Components/CaseStudies/CaseStudies.jsx';
+import CaseStudies2 from './Components/CaseStudies/CaseStudies2.jsx';
 import CaseStudiesDetail from './Components/CaseStudies/CaseStudiesDetail.jsx';
 import About from './Components/About/About.jsx';
 import FAQ from './Components/FAQ/FAQ.jsx';
@@ -27,7 +27,7 @@ const App = () => {
           <Route path="/services-detail" element={<ServicesDetail />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/industry-detail" element={<IndustryDetail />} />
-          <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/case-studies" element={<CaseStudies2 />} />
           <Route path="/case-studies-detail" element={<CaseStudiesDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/faq" element={<FAQ />} />

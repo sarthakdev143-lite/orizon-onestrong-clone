@@ -1,9 +1,9 @@
 import React from 'react'
 import bgImage from './imgs/caseStudies.jpg';
 import ReusableLanding from '../ReusableLanding/ReusableLanding';
-import Case_Studies from '../Home/Case_Studies/Case_Studies';
+import CaseStudies from '../Home/CaseStudies/CaseStudies';
 
-const CaseStudies = () => {
+const CaseStudies2 = () => {
   const landingData = {
     bgImage,
     title: "Case Studies",
@@ -17,9 +17,9 @@ const CaseStudies = () => {
         showSlider={false}
         fullHeight={true}
       />
-      <Case_Studies showHead={false} />
+      <CaseStudies showHead={false} />
     </>
   )
 }
 
-export default CaseStudies
+export default CaseStudies2

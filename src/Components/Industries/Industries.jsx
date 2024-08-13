@@ -6,7 +6,7 @@ import ReusableLanding from '../ReusableLanding/ReusableLanding';
 
 import OurApproach from '../Home/OurApproach/OurApproach.jsx'
 import ClientReviews from '../Home/ClientReviews/ClientReviews.jsx'
-import Case_Studies from '../Home/Case_Studies/Case_Studies.jsx'
+import CaseStudies from '../Home/CaseStudies/CaseStudies.jsx'
 import LetsDiscuss from '../Services/LetsDiscuss/LetsDiscuss.jsx'
 import OurServices from '../Services/OurServices/OurServices.jsx'
 
@@ -78,7 +78,7 @@ const Industries = () => {
       <OurApproach />
       <ClientReviews />
       <LetsDiscuss />
-      <Case_Studies />
+      <CaseStudies />
     </>
   )
 }

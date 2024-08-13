@@ -46,7 +46,7 @@ const CaseStudiesDetail = () => {
           </div>
           <AboutTheClient heading={true} />
           <figure>
-            <img src={csdBg} alt="" />
+            <img src={csdBg} alt="Case Studies Detail BG" />
           </figure>
           <LetsDiscuss />
         </div>

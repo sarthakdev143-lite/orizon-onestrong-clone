@@ -3,7 +3,7 @@ import Landing from './Landing/Landing'
 import Services from './Services-Home/Services'
 import Industries from './Industries/Industries'
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs'
-import Case_Studies from './Case_Studies/Case_Studies'
+import CaseStudies from './CaseStudies/CaseStudies'
 import MeetTheTeam from './MeetTheTeam/MeetTheTeam'
 import TechnologyStack from './TechnologyStack/TechnologyStack'
 import OurApproach from './OurApproach/OurApproach'
@@ -16,7 +16,7 @@ const Home = () => {
             <Services />
             <Industries />
             <WhyChooseUs />
-            <Case_Studies />
+            <CaseStudies />
             <MeetTheTeam />
             <TechnologyStack />
             <OurApproach />
