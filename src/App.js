@@ -16,27 +16,30 @@ import Review from './Components/Review/Review.jsx';
 import Pricing from './Components/Pricing/Pricing.jsx';
 import Contacts from './Components/Contacts/Contacts.jsx';
 import Error404 from './Components/Error404/Error404.jsx';
+import Layout from './Layout.js';
 
 const App = () => {
   return (
-    <Router basename="/orizon-onestrong-clone">
+    <Router>
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/services-detail" element={<ServicesDetail />} />
-          <Route path="/industries" element={<Industries />} />
-          <Route path="/industry-detail" element={<IndustryDetail />} />
-          <Route path="/case-studies" element={<CaseStudies2 />} />
-          <Route path="/case-studies-detail" element={<CaseStudiesDetail />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/review" element={<Review />} />
-          <Route path="/pricing" element={<Pricing />} />
-          <Route path="/404" element={<Error404 />} />
-          <Route path="/contacts" element={<Contacts />} />
-          <Route path="*" element={<Error404 />} />
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/services-detail" element={<ServicesDetail />} />
+            <Route path="/industries" element={<Industries />} />
+            <Route path="/industry-detail" element={<IndustryDetail />} />
+            <Route path="/case-studies" element={<CaseStudies2 />} />
+            <Route path="/case-studies-detail" element={<CaseStudiesDetail />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/review" element={<Review />} />
+            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/404" element={<Error404 />} />
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="*" element={<Error404 />} />
+          </Route>
         </Routes>
       </main>
       <Footer />

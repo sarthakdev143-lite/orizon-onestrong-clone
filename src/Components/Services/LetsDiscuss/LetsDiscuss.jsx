@@ -30,7 +30,7 @@ const LetsDiscuss = () => {
                             <div className="wrap">
                                 <article>
                                     <div className="article-head">
-                                        <i class="ri-double-quotes-r"></i>
+                                        <i className="ri-double-quotes-r"></i>
                                         <div className="sub-wrap">
                                             <h3>Benjamin Smith</h3>
                                             <h4>IT Sales Manager</h4>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../Header/Header';
 import InfiniteSlider from '../Home/Landing/InfiniteSlider';
 import './Landing.css'
 
@@ -7,7 +6,6 @@ const ReusableLanding = ({ bgImage, title, showSlider, fullHeight, landingText, 
     return (
         <>
             <section id='reusable-landing' className={fullHeight ? 'fullHeight' : ''}>
-                <Header />
                 <figure>
                     <img src={bgImage} alt="Background img" />
                 </figure>

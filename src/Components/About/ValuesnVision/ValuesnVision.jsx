@@ -15,7 +15,7 @@ const ValuesnVision = () => {
                         <ul type='none'>
                             {checks.map((check, idx) => (
                                 <li key={idx}>
-                                    <i class="ri-checkbox-circle-fill"></i>
+                                    <i className="ri-checkbox-circle-fill"></i>
                                     {check}
                                 </li>
                             ))}

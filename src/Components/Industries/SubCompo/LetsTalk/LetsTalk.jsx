@@ -9,7 +9,7 @@ const LetsTalk = () => {
                     <p>Leave a request - our managers will analyze your current situation and help you choose a site to scale your business</p>
                     <div className="lets-discuss">
                         <p>let's discuss your project</p>
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                             arrow_outward
                         </span>
                     </div>

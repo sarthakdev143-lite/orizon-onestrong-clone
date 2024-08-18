@@ -75,7 +75,7 @@ const OurApproach = () => {
                                     <ul type='none'>
                                         {slide.checkbox.map((item, idx) => (
                                             <li key={idx}>
-                                                <i class="ri-checkbox-circle-fill"></i>
+                                                <i className="ri-checkbox-circle-fill"></i>
                                                 {item}
                                             </li>
                                         ))}

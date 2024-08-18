@@ -2,38 +2,14 @@ import React, { useEffect, useRef } from 'react';
 import './InfiniteSlider.css';
 
 const items = [
-    {
-        image: './imgs/automation.png',
-        caption: 'Automation',
-    },
-    {
-        image: './imgs/nextmove.png',
-        caption: 'NextMove',
-    },
-    {
-        image: './imgs/penta.png',
-        caption: 'Penta',
-    },
-    {
-        image: './imgs/product.png',
-        caption: 'Product',
-    },
-    {
-        image: './imgs/proline.png',
-        caption: 'Proline',
-    },
-    {
-        image: './imgs/sitemark.png',
-        caption: 'SiteMark',
-    },
-    {
-        image: './imgs/vision.png',
-        caption: 'Vision',
-    },
-    {
-        image: './imgs/waveless.png',
-        caption: 'Waveless',
-    },
+    { image: './imgs/automation.png', caption: 'Automation', },
+    { image: './imgs/nextmove.png', caption: 'NextMove', },
+    { image: './imgs/penta.png', caption: 'Penta', },
+    { image: './imgs/product.png', caption: 'Product', },
+    { image: './imgs/proline.png', caption: 'Proline', },
+    { image: './imgs/sitemark.png', caption: 'SiteMark', },
+    { image: './imgs/vision.png', caption: 'Vision', },
+    { image: './imgs/waveless.png', caption: 'Waveless', },
 ];
 
 const InfiniteSlider = () => {
@@ -91,7 +67,7 @@ const InfiniteSlider = () => {
             <div className="slider-container" id='company-name-slider'>
                 <div className="slider" ref={sliderRef}>
                     {items.map((item) => (
-                        <img className='slider-item' src={require(`${item.image}`)} alt={item.caption} />
+                        <img className='slider-item' key={item.caption} src={require(`${item.image}`)} alt={item.caption} />
                     ))}
                 </div>
                 <div className="slider" ref={cloneRef}></div>

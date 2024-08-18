@@ -15,7 +15,7 @@ const Home = () => {
             <Landing />
             <Services />
             <Industries />
-            <WhyChooseUs />
+            <WhyChooseUs forAboutUs={false} />
             <CaseStudies />
             <MeetTheTeam />
             <TechnologyStack />

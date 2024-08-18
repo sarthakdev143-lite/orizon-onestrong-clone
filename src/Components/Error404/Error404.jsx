@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Header from '../Header/Header'
 import './Error404.css'
 
 const Error404 = () => {
@@ -8,7 +7,6 @@ const Error404 = () => {
         <>
             <section id="not-found">
                 <div id="not-found-wrapper">
-                    <Header />
                     <div className="content">
                         <h1>ERROR PAGE</h1>
                         <h1>404</h1>

@@ -49,7 +49,7 @@ const OurPricing = () => {
                                                         {
                                                             service.tags.map(tag => (
                                                                 <div className="pricing-checkbox">
-                                                                    <i class="ri-checkbox-circle-fill"></i>
+                                                                    <i className="ri-checkbox-circle-fill"></i>
                                                                     {tag}
                                                                 </div>
                                                             ))

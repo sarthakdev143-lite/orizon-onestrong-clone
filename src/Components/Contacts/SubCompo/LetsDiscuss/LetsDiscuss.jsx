@@ -38,9 +38,9 @@ const LetsDiscuss = () => {
                         </div>
                         <textarea name="" id="" placeholder='Message' required ></textarea>
                         <div className="checkbox">
-                            <label class="container">
+                            <label className="container">
                                 <input type="checkbox" required />
-                                <div class="checkmark"></div>
+                                <div className="checkmark"></div>
                             </label>
                             <p>I agree that my personal information will be processed and stored by Orizon.</p>
                         </div>
