@@ -20,7 +20,7 @@ const CaseStudies = ({ showHead }) => {
     return (
         <section id='case-studies' className={`case-studies ${!showHead ? 'used' : ''}`}>
             <div className="studies-wrapper">
-                {showHead && <h1 className='heading'>
+                {!showHead && <h1 className='heading'>
                     Case Studies
                     <button>
                         All Case

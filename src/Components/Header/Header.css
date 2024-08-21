@@ -161,12 +161,16 @@ header#second {
 header#second {
     display: none;
 
-    #menu i {
-        font-size: 2rem;
+    #menu {
+        place-content: center;
+
+        i {
+            font-size: 2rem;
+        }
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1260px) {
     header#first {
         justify-content: left;
         height: 100%;

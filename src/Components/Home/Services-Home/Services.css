@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital,wght@0,300..700;1,300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=swap');
 
 .features-container {
-    padding: 8.5rem 0.5rem;
+    padding: clamp(4rem, 8vw, 8.5rem) clamp(1rem, 2vw, 2rem);
 
     .features-wrapper {
         min-height: 100%;
@@ -18,23 +18,23 @@
 
         button.feature {
             width: 100%;
-            padding: 0.3rem 1rem;
+            padding: clamp(0.3rem, 1vw, 1rem);
             border: none;
             cursor: pointer;
             background: #fff;
             border-bottom: 0.1rem solid transparent;
             display: flex;
             text-align: left;
-            gap: 1.5rem;
+            gap: clamp(1rem, 2vw, 1.5rem);
 
             h3 {
-                font-size: 1.9rem;
-                line-height: 4.5rem;
+                font-size: clamp(1.2rem, 2vw, 1.9rem);
+                line-height: clamp(2rem, 4vw, 4.5rem);
                 color: grey;
             }
 
             h1 {
-                font-size: 4.6rem;
+                font-size: clamp(2.5rem, 5vw, 4.6rem);
                 letter-spacing: -0.3rem;
                 font-weight: 900;
             }
@@ -56,11 +56,11 @@
         margin-top: 1.5rem;
         position: relative;
         transition: all ease 0.3s;
-        min-height: 59rem;
+        min-height: clamp(30rem, 60vw, 59rem);
     }
 
     .slide {
-        padding: 1.6rem;
+        padding: clamp(1rem, 2vw, 1.6rem);
         position: absolute;
         top: 0;
         left: 0;
@@ -72,7 +72,7 @@
         visibility: hidden;
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: clamp(1rem, 2vw, 2rem);
         border-radius: 2rem;
         overflow: hidden;
 
@@ -84,7 +84,7 @@
             left: 0;
             width: 100%;
             height: 48%;
-            background: #F55D2D
+            background: #F55D2D;
         }
 
         &.active {
@@ -98,18 +98,18 @@
 
         .tags {
             display: flex;
-            gap: 0.5rem;
+            gap: clamp(0.3rem, 1vw, 0.5rem);
             flex-wrap: wrap;
             max-width: 90%;
 
             .tag {
-                padding: 0.2rem 0.8rem;
+                padding: clamp(0.1rem, 0.5vw, 0.2rem) clamp(0.5rem, 1vw, 0.8rem);
                 text-transform: uppercase;
                 font-weight: 600;
                 color: #333;
                 border: 0.1rem solid #ddd;
                 border-radius: 5rem;
-                font-family: 'red hat mono';
+                font-family: 'Red Hat Mono';
                 transition: all ease 0.3s;
 
                 &:hover {
@@ -119,14 +119,14 @@
         }
 
         p {
-            font-size: 1.18rem;
-            line-height: 2rem;
+            font-size: clamp(1rem, 2vw, 1.18rem);
+            line-height: clamp(1.5rem, 3vw, 2rem);
             color: grey;
         }
 
         .learn-more {
             display: flex;
-            gap: 1.6rem;
+            gap: clamp(1rem, 2vw, 1.6rem);
             width: fit-content;
             align-items: center;
             text-transform: uppercase;
@@ -137,7 +137,7 @@
             span {
                 border: 0.1rem solid #F55D2D;
                 border-radius: 50%;
-                padding: 0.65rem;
+                padding: clamp(0.3rem, 1vw, 0.65rem);
                 font-weight: 300;
                 transition: all ease 0.2s;
             }
@@ -149,7 +149,7 @@
         }
 
         img {
-            width: 64%;
+            width: clamp(40%, 64%, 70%);
             margin: 0 auto;
             pointer-events: none;
         }
@@ -160,6 +160,7 @@
     .features-wrapper {
         flex-direction: column;
         gap: 5rem;
+        padding-bottom: 20rem;
 
         .features-content,
         .features-list {
@@ -167,3 +168,4 @@
         }
     }
 }
+

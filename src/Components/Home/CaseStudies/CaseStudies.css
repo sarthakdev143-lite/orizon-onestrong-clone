@@ -47,7 +47,7 @@
         }
 
         .box {
-            width: 38rem;
+            max-width: 38rem;
             height: 35rem;
             display: flex;
             flex-direction: column;

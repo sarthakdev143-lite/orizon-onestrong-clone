@@ -33,28 +33,28 @@ const WhyChooseUs = ({ forAboutUs }) => {
             <div id="why-choose-us-wrapper">
                 <UpperPart isAboutUs={forAboutUs} />
                 <div className="lower-part">
-                    <article className="left">
-                        We pride ourselves on delivering high-quality custom software solutions that drive business growth and success. You gain a trusted partner who is dedicated to understanding your unique requirements and delivering innovative, and secure software tailored to your needs.
-                        {!forAboutUs &&
-                            <button>
-                                About us
-                                <span className="material-symbols-outlined">arrow_outward</span>
-                            </button>
-                        }
-                    </article>
-                    <div className="right">
+                    <div className="wrap">
+                        <article className="left">
+                            We pride ourselves on delivering high-quality custom software solutions that drive business growth and success. You gain a trusted partner who is dedicated to understanding your unique requirements and delivering innovative, and secure software tailored to your needs.
+                            {!forAboutUs &&
+                                <button>
+                                    About us
+                                    <span className="material-symbols-outlined">arrow_outward</span>
+                                </button>
+                            }
+                        </article>
                         <figure>
                             <img src={whyChooseUsImage} alt="Why Choose Us?" />
                         </figure>
-                        <div className="numbers">
-                            <div className="column">
-                                <NumberBox number="15+" description="With 15 years of experience, we have earned numerous awards" />
-                                <NumberBox number="150+" description="We have a team of over 150 certified full-time professionals." />
-                            </div>
-                            <div className="column">
-                                <NumberBox number="23+" description="We have offices in four countries worldwide" />
-                                <NumberBox number="2,540+" description="We have successfully implemented over 2,540 projects." />
-                            </div>
+                    </div>
+                    <div className="numbers">
+                        <div className="column">
+                            <NumberBox number="15+" description="With 15 years of experience, we have earned numerous awards" />
+                            <NumberBox number="150+" description="We have a team of over 150 certified full-time professionals." />
+                        </div>
+                        <div className="column">
+                            <NumberBox number="23+" description="We have offices in four countries worldwide" />
+                            <NumberBox number="2,540+" description="We have successfully implemented over 2,540 projects." />
                         </div>
                     </div>
                 </div>

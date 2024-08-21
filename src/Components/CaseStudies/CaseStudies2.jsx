@@ -17,7 +17,7 @@ const CaseStudies2 = () => {
         showSlider={false}
         fullHeight={true}
       />
-      <CaseStudies showHead={false} />
+      <CaseStudies showHead={true} />
     </>
   )
 }

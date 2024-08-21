@@ -3,6 +3,8 @@
     height: 60.3rem;
     position: relative;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
     figure#landing-bg-vid {
         position: absolute;
@@ -22,14 +24,13 @@
     }
 
     #landing-content {
-        position: absolute;
-        bottom: 18%;
-        left: 50%;
-        transform: translateX(-50.2%);
+        padding: 1rem 1rem 10rem 1rem;
         z-index: 1;
         width: 92rem;
         height: fit-content;
         display: flex !important;
+        flex-wrap: wrap;
+        gap: 1rem;
 
         &>* {
             color: #fff;
@@ -42,8 +43,8 @@
             max-width: 80%;
 
             h1 {
-                font-size: 5.5rem;
-                line-height: 6.1rem;
+                font-size: clamp(3.5rem, 3.8vw, 3.8vw);
+                line-height: clamp(4rem, 4.2vw, 4.2vw);
                 font-weight: 900;
             }
 
@@ -86,4 +87,26 @@
             }
         }
     }
+}
+
+@media (max-width: 768px) {
+    #landing-content {
+        article p {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 768px) { 
+    #landing-content {
+        gap: 2rem !important;
+    }
+
+    .lets-discuss {
+        border-radius: 1rem !important;
+        flex-direction: row-reverse !important;
+        height: fit-content !important;
+        width: fit-content !important;
+        padding: 1rem;
+    }    
 }

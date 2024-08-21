@@ -31,10 +31,24 @@ const SliderItems = [
 const sliderSettings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1200, // screens 1200px and below
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 600, // screens 768px and below
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
 };
 
 const Industries = () => {

@@ -1,8 +1,11 @@
 .why-choose-us {
     width: 100%;
     border-bottom: 0.1rem solid #ddd;
-    height: 69rem;
     padding: 8rem 6.5rem;
+
+    /* * {
+        background: #9797971a;
+    } */
 
     &.about-us {
         padding: 8rem 6.5rem 0 6.5rem;
@@ -44,49 +47,49 @@
 
         .lower-part {
             display: flex;
+            justify-content: center;
             border-top: 0.1rem solid #ddd;
 
-            article.left {
-                max-width: 31rem !important;
-                height: 31rem;
-                border-right: 0.1rem solid #ddd;
-                font-size: 1.3rem;
-                padding: 5rem 5rem 0 1rem;
+            .wrap {
                 display: flex;
-                flex-direction: column;
-                gap: 2.5rem;
-                line-height: 2.1rem;
 
-                button {
-                    width: 14rem;
-                    height: 4.5rem;
-                    border-radius: 2rem;
-                    background: #F55D2D;
-                    color: #fff;
+                article.left {
+                    max-width: 31rem;
+                    min-width: 22rem;
+                    border-right: 0.1rem solid #ddd;
+                    font-size: 1.3rem;
+                    padding: 5rem 5rem 0 1rem;
                     display: flex;
-                    gap: 1.2rem;
-                    justify-content: center;
-                    align-items: center;
-                    font-size: 1.2rem;
-                    text-transform: uppercase;
-                    border: none;
+                    flex-direction: column;
+                    gap: 2.5rem;
+                    line-height: 2.1rem;
 
-                    span {
-                        font-weight: 200;
+                    button {
+                        width: 14rem;
+                        height: 4.5rem;
+                        border-radius: 2rem;
+                        background: #F55D2D;
+                        color: #fff;
+                        display: flex;
+                        gap: 1.2rem;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 1.2rem;
+                        text-transform: uppercase;
+                        border: none;
+
+                        span {
+                            font-weight: 200;
+                        }
                     }
                 }
-            }
-
-            .right {
-                width: 82%;
-                height: 100%;
-                padding: 4.5rem 0 0 4.5rem;
-                display: flex;
-                gap: 3.5rem;
 
                 figure {
-                    width: 35rem;
-                    height: 29rem;
+                    width: clamp(25rem, 30vw, 33rem);
+                    min-width: 25rem;
+                    height: clamp(25rem, 30vw, 33rem);
+                    padding: 4rem 0 0 4rem;
+                    margin-right: 4rem;
 
                     img {
                         width: 100%;
@@ -95,49 +98,131 @@
                         border-radius: 2rem;
                     }
                 }
+            }
 
-                .numbers {
+            .numbers {
+                display: flex;
+                gap: 3.5rem;
+                padding-top: 4rem;
+
+                .column {
                     display: flex;
-                    gap: 3.5rem;
+                    flex-direction: column;
+                    gap: 2rem;
 
-                    .column {
+                    .box {
                         display: flex;
                         flex-direction: column;
-                        gap: 2rem;
+                        border-top: 0.3rem solid #F55D2D;
+                        padding-top: 1rem;
+                        height: 12rem;
+                        transition: all ease 0.5s;
+                        max-width: 26rem;
 
-                        .box {
+                        h1 {
                             display: flex;
-                            flex-direction: column;
-                            border-top: 0.3rem solid #F55D2D;
-                            padding-top: 1rem;
-                            height: 12rem;
-                            transition: all ease 0.5s;
+                            justify-content: space-between;
+                            font-size: clamp(3rem, 4vw, 5.7rem);
 
-                            h1 {
-                                display: flex;
-                                justify-content: space-between;
-                                font-size: 5.7rem;
-
-                                span {
-                                    transition: all ease 0.2s;
-                                    font-size: 5rem;
-                                    font-weight: 200;
-                                }
-                            }
-
-                            p {
-                                font-size: 1.1rem;
-                                color: #888;
-                            }
-
-                            &:hover {
-                                transform: translateY(-0.4rem);
-
-                                span {
-                                    color: #F55D2D;
-                                }
+                            span {
+                                transition: all ease 0.2s;
+                                font-size: 5rem;
+                                font-weight: 200;
                             }
                         }
+
+                        p {
+                            font-size: 1.1rem;
+                            color: #888;
+                        }
+
+                        &:hover {
+                            transform: translateY(-0.4rem);
+
+                            span {
+                                color: #F55D2D;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    .why-choose-us {
+        padding: 8rem 3rem;
+
+        .upper-part p {
+            width: 100% !important;
+        }
+
+        .lower-part {
+            flex-direction: column;
+
+            .wrap {
+                justify-content: center;
+                width: 100%;
+
+                article.left {
+                    max-width: 50% !important;
+                }
+
+                figure {
+                    max-width: 50%;
+                }
+            }
+
+            .numbers {
+                width: 100%;
+                justify-content: center;
+
+                .column {
+                    width: 50%;
+                    align-items: center;
+
+                    .box {
+                        width: 25rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .why-choose-us {
+        padding: 8rem 1rem;
+
+        .lower-part {
+            .wrap {
+                flex-direction: column;
+                width: 100% !important;
+
+                article.left {
+                    border: none !important;
+                    max-width: 100% !important;
+                }
+
+                figure {
+                    max-width: 100% !important;
+                    min-width: 0 !important;
+                    width: 100% !important;
+                    height: 50rem !important;
+                    padding: 4rem 0 0 0 !important;
+                }
+            }
+
+            .numbers {
+                flex-direction: column;
+
+                .column {
+                    width: 100%;
+
+                    .box {
+                        max-width: 100% !important;
+                        width: 100%;
                     }
                 }
             }
