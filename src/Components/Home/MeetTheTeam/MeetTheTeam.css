@@ -4,6 +4,7 @@
 
 .meet-the-team {
     width: 100%;
+    margin-top: 7rem;
 
     .marquee {
         max-width: 100%;
@@ -17,13 +18,14 @@
             font-weight: 1000;
             white-space: nowrap;
             animation: scrollLeft 60s linear infinite;
+            line-height: 1;
         }
     }
 
     .our-teams {
         background: #181818;
         width: 100%;
-        padding: 7rem 0 7rem 6.5rem;
+        padding: clamp(4rem, 7vw, 7rem) 0 clamp(4rem, 7vw, 7rem) clamp(1rem, 6.5vw, 6.5rem);
         border-radius: 2rem;
         overflow: hidden;
 
@@ -31,27 +33,28 @@
             display: flex;
             flex-direction: column;
             gap: 5rem;
-            max-width: 129rem;
-            min-width: 129rem;
+            max-width: 100%;
             margin: 0 auto;
             position: relative;
 
             &::after {
                 content: '';
                 position: absolute;
-                height: 100%;
-                width: 36rem;
+                top: 50%;
                 right: 0;
-                top: 0;
-                background: linear-gradient(to right, transparent, #181818);
+                transform: translateY(-35%);
+                height: 80%;
+                width: clamp(1rem, 80vw, 36rem);
+                background: linear-gradient(to right, transparent, #181818) !important;
             }
         }
 
         h1.heading {
             color: #fff;
             text-transform: uppercase;
-            font-size: 5.5rem;
+            font-size: clamp(3.5rem, 5.5vw, 5.5rem);
             font-weight: 1000;
+            margin: 0;padding-right: 1rem;
         }
 
         button {
@@ -61,6 +64,10 @@
         .slick-track {
             display: flex;
             gap: 2rem;
+
+            @media (max-width: 404px) {    
+                gap: 0 !important;
+            }
         }
 
         .team-member {
@@ -71,6 +78,7 @@
             figure {
                 width: 16rem;
                 height: 21rem;
+                margin: 0 auto;
 
                 img {
                     width: 100%;
@@ -86,15 +94,21 @@
                 gap: 0.5rem;
                 padding-left: 1rem;
 
+                @media (max-width: 404px) {
+                    text-align: center;
+                }
+
                 h1 {
                     color: #fff;
                     font-weight: 500;
+                    font-size: clamp(1.6rem, 2.5vw, 2rem);
                 }
 
                 h4 {
                     font-weight: 500;
                     color: #555;
-                    font-family: 'red hat mono';
+                    font-family: 'Red Hat Mono', monospace;
+                    font-size: clamp(1rem, 1.5vw, 1.4rem);
                 }
             }
         }

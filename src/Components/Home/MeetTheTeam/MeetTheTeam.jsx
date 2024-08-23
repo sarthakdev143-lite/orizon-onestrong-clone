@@ -1,18 +1,18 @@
-import React from 'react'
+import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './MeetTheTeam.css'
 
-import EthanJohnson from './imgs/EthanJohnson.jpg'
-import BenjaminSmith from './imgs/BenjaminSmith.jpg'
-import OliviaDavis from './imgs/OliviaDavis.jpg'
-import Alexander from './imgs/Alexander.jpg'
-import AvaJohnson from './imgs/AvaJohnson.jpg'
-import SamuelAnderson from './imgs/SamuelAnderson.jpg'
-import MatthewWilson from './imgs/MatthewWilson.jpg'
-import DanielBrown from './imgs/DanielBrown.jpg'
-import MiaWright from './imgs/MiaWright.jpg'
+import EthanJohnson from './imgs/EthanJohnson.jpg';
+import BenjaminSmith from './imgs/BenjaminSmith.jpg';
+import OliviaDavis from './imgs/OliviaDavis.jpg';
+import Alexander from './imgs/Alexander.jpg';
+import AvaJohnson from './imgs/AvaJohnson.jpg';
+import SamuelAnderson from './imgs/SamuelAnderson.jpg';
+import MatthewWilson from './imgs/MatthewWilson.jpg';
+import DanielBrown from './imgs/DanielBrown.jpg';
+import MiaWright from './imgs/MiaWright.jpg';
 
 const TeamMembers = [
     { name: "Ethan Johnson", role: "CEO ORIZON", imgSrc: EthanJohnson },
@@ -29,10 +29,48 @@ const TeamMembers = [
 const sliderSettings = {
     infinite: true,
     speed: 500,
-    slidesToShow: 7.1,
+    slidesToShow: 7,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    responsive: [
+        {
+            breakpoint: 1440,
+            settings: {
+                slidesToShow: 5.5,
+            }
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 4.2,
+            }
+        },
+        {
+            breakpoint: 829,
+            settings: {
+                slidesToShow: 3,
+            }
+        },
+        {
+            breakpoint: 580,
+            settings: {
+                slidesToShow: 2,
+            }
+        },
+        {
+            breakpoint: 404,
+            settings: {
+                slidesToShow: 1.1,
+            }
+        },
+        {
+            breakpoint: 300,
+            settings: {
+                slidesToShow: 1,
+            }
+        },
+    ]
 };
 
 const MeetTheTeam = () => {
@@ -67,5 +105,4 @@ const MeetTheTeam = () => {
     )
 }
 
-export default MeetTheTeam
- 
+export default MeetTheTeam;
