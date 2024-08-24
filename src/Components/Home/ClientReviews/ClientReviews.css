@@ -5,7 +5,7 @@
         width: 100%;
         max-width: 129rem;
         margin: 0 auto;
-        padding: 9rem 2rem 2rem 3rem;
+        padding: 9rem 2rem 2rem clamp(2rem, 1vw, 3rem);
         display: flex;
 
         .sticky-header-wrapper {
@@ -13,6 +13,7 @@
         }
 
         .sticky-header {
+            z-index: 1;
             position: sticky;
             top: 5rem;
             display: flex;
@@ -21,8 +22,8 @@
             padding-right: 3rem;
 
             h1 {
-                font-size: 5.4rem;
-                line-height: 5.5rem;
+                font-size: clamp(3rem, 3.8vw, 5.4rem);
+                line-height: clamp(4rem, 4.2vw, 5.5rem);
                 font-weight: 1000;
             }
 
@@ -34,10 +35,10 @@
             }
 
             button {
-                width: 20rem;
+                width: clamp(18rem, 20vw, 20rem);
                 color: #fff;
                 height: 4.2rem;
-                border-radius: 2rem;
+                border-radius: clamp(1.5rem, 1.5vw, 2rem);
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -60,11 +61,19 @@
         }
 
         .content {
+            z-index: 1;
             display: flex;
             justify-content: flex-end;
-            gap: 4.2rem;
+            gap: clamp(1rem, 4vw, 4.2rem);
             width: 71%;
             padding-right: 2.8rem;
+            flex: 1;
+
+            @media (max-width: 575px) {
+                flex-direction: column;
+                align-items: center;
+                gap: 6rem;   
+            }
 
             .column {
                 display: flex;
@@ -83,7 +92,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 1.5rem;
-                width: 32.6rem;
+                max-width: 32.6rem;
                 justify-content: space-between;
 
                 .text p {
@@ -138,6 +147,23 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 1260px) {
+    #client-review-wrapper {
+        flex-direction: column;
+
+        .sticky-header-wrapper {
+            max-width: 100% !important;
+            padding-bottom: 2rem;
+        }
+
+        .content {
+            width: 100% !important;
+            justify-content: center !important;
+            padding-right: 0 !important;
         }
     }
 }

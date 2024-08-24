@@ -3,10 +3,6 @@
     border-bottom: 0.1rem solid #ddd;
     padding: 8rem 6.5rem;
 
-    /* * {
-        background: #9797971a;
-    } */
-
     &.about-us {
         padding: 8rem 6.5rem 0 6.5rem;
         border-bottom: none;
@@ -24,7 +20,7 @@
 
         .upper-part {
             h1 {
-                font-size: 5.5rem;
+                font-size: clamp(3.5rem, 6vw, 5.5rem);
                 text-transform: uppercase;
             }
 

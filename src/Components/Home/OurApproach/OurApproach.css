@@ -8,11 +8,11 @@
         width: 100%;
         max-width: 129rem;
         margin: 0 auto;
-        padding: 2rem;
-        padding-top: 9rem;
+        padding: clamp(1rem, 2vw, 2rem);
+        padding-top: clamp(5rem, 7.5vw, 9rem);
         display: flex;
         flex-direction: column;
-        gap: 5.3rem;
+        gap: clamp(2rem, 3vw, 5.3rem);
 
         * {
             color: #fff;
@@ -24,33 +24,33 @@
             justify-content: space-between;
 
             .left {
-                padding-left: 2rem;
+                padding-left: clamp(1rem, 2vw, 2rem);
                 display: flex;
                 flex-direction: column;
-                gap: 0.6rem;
+                gap: clamp(0.4rem, 1vw, 0.6rem);
 
                 h1.main-heading {
-                    font-size: 5.4rem;
+                    font-size: clamp(2.5rem, 5vw, 5.4rem);
                     font-weight: 1000;
                     text-transform: uppercase;
                 }
 
                 button {
-                    width: 17rem;
-                    height: 4.2rem;
+                    width: clamp(10rem, 15vw, 17rem);
+                    height: clamp(3rem, 4vw, 4.2rem);
                     border-radius: 2rem;
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    gap: 1.2rem;
+                    gap: clamp(0.8rem, 1.5vw, 1.2rem);
                     background: #F55D2D;
                     border: none;
-                    font-size: 1.16rem;
+                    font-size: clamp(0.8rem, 1vw, 1.16rem);
                     text-transform: uppercase;
                     font-weight: 400;
 
                     span {
-                        font-size: 1.8rem;
+                        font-size: clamp(1.2rem, 1.5vw, 1.8rem);
                         font-weight: 400;
                         transform: translateY(0.1rem);
                     }
@@ -58,10 +58,10 @@
             }
 
             article.right {
-                font-size: 1.3rem;
-                line-height: 2.1rem;
+                font-size: clamp(1rem, 1.5vw, 1.3rem);
+                line-height: clamp(1.5rem, 2vw, 2.1rem);
                 max-width: 34.5%;
-                margin-top: 1rem;
+                margin-top: clamp(0.5rem, 1vw, 1rem);
             }
         }
 
@@ -72,27 +72,26 @@
             padding-bottom: 5rem;
 
             .left {
-                min-width: 23.3%;
-                height: 100%;
+                min-width: clamp(15rem, 23vw, 23.3%);
                 display: flex;
                 flex-direction: column;
-                gap: 1.9rem;
-                padding-top: 4.5rem;
+                gap: clamp(1rem, 2vw, 1.9rem);
+                padding-top: clamp(2rem, 3vw, 4.5rem);
 
                 button.feature {
                     width: 100%;
-                    padding: 0 1rem;
+                    padding: 0 clamp(0.5rem, 1vw, 1rem);
                     border: none;
                     cursor: pointer;
                     background: #181818;
                     border-left: 0.3rem solid transparent;
                     display: flex;
-                    padding-left: 1.5rem;
+                    padding-left: clamp(1rem, 1.5vw, 1.5rem);
                     margin-left: 2em;
                     width: fit-content;
 
                     h1 {
-                        font-size: 1.35rem;
+                        font-size: clamp(1rem, 1.2vw, 1.35rem);
                         font-weight: 400;
                     }
                 }
@@ -112,13 +111,12 @@
                 height: 100%;
                 position: relative;
                 transition: all ease 0.3s;
-                min-height: 38rem;
+                min-height: clamp(20rem, 38vw, 38rem);
                 border-left: 0.1rem solid #333;
             }
 
             .slide {
-                padding: 5.8rem 0 0 5.8rem;
-                /* background: red; */
+                padding: clamp(2rem, 5vw, 5.8rem) 0 0 clamp(2rem, 5vw, 5.8rem);
                 position: absolute;
                 top: 0;
                 left: 0;
@@ -126,64 +124,95 @@
                 opacity: 0;
                 visibility: hidden;
                 display: flex;
-                gap: 14rem;
+                gap: clamp(5rem, 10vw, 14rem);
                 overflow: hidden;
                 transition: opacity 0.5s ease-in-out;
 
                 &.active {
                     opacity: 1;
                     visibility: visible;
+                    position: relative;
                 }
 
                 .image img {
-                    max-width: 30rem;
+                    max-width: clamp(15rem, 20vw, 30rem);
                 }
 
                 .details {
                     display: flex;
                     flex-direction: column;
-                    gap: 2rem;
+                    gap: clamp(1rem, 1.5vw, 2rem);
 
                     figcaption {
                         display: flex;
-                        gap: 1.4rem;
+                        gap: clamp(1rem, 1vw, 1.4rem);
 
                         h3 {
-                            font-size: 1.6rem;
+                            font-size: clamp(1rem, 1.2vw, 1.6rem);
                             color: grey;
                             transform: translateY(-0.2rem);
                         }
 
                         h1 {
-                            font-size: 4.5rem;
+                            font-size: clamp(2.5rem, 4vw, 4.5rem);
                             font-weight: 1000;
                             letter-spacing: -0.24rem;
                         }
                     }
 
                     article p {
-                        font-size: 1.2rem;
+                        font-size: clamp(1rem, 1.1vw, 1.2rem);
                         max-width: 93%;
-                        line-height: 2rem;
+                        line-height: clamp(1.5rem, 2vw, 2rem);
                     }
 
                     ul {
                         display: flex;
                         flex-direction: column;
-                        gap: 1rem;
+                        gap: clamp(0.5rem, 1vw, 1rem);
 
                         li {
                             display: flex;
-                            font-size: 1.4rem;
+                            font-size: clamp(1rem, 1.2vw, 1.4rem);
                             gap: 0.5rem;
                             word-spacing: -0.1rem;
 
                             i {
-                                font-size: 2rem;
+                                font-size: clamp(1.5rem, 2vw, 2rem);
                                 color: #F55D2D;
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    #our-approach-wrapper {
+        min-height: 77rem;
+        max-height: 100%;
+
+        .header {
+            flex-direction: column;
+            gap: 1rem;
+
+            article.right {
+                padding-left: 1.5rem;
+                max-width: 100% !important;
+            }
+        }
+
+        .content {
+            flex-wrap: wrap;
+
+            .right {
+                border-left: none !important;
+
+                .slide {
+                    flex-wrap: wrap;
                 }
             }
         }

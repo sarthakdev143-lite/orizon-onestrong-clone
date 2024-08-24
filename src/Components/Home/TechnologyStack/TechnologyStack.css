@@ -24,10 +24,6 @@
             width: 100%;
             border-top: 0.1rem solid #ddd;
             display: flex;
-
-            @media (max-width: 768px) {
-                flex-direction: column;
-            }
         }
     }
 }
@@ -88,13 +84,13 @@
         transition: all ease 0.3s;
         min-height: 45rem;
 
-        @media (min-width: 383px) {
-            min-height: 70rem;            
+        @media (max-width: 372px) {
+            min-height: 80rem;            
         }
     }
 
     .slide {
-        padding: clamp(3rem, 8vw, 8rem) clamp(2rem, 6vw, 6rem) 0;
+        padding: clamp(0rem, 8vw, 8rem) clamp(0rem, 6vw, 6rem) 0;
         position: absolute;
         top: 0;
         left: 0;
@@ -122,7 +118,7 @@
             .blocks {
                 display: grid;
                 grid-template-columns: repeat(auto-fill, minmax(clamp(12rem, 20vw, 20rem), 1fr));
-                padding: 2rem 0 0 1rem;
+                padding: 2rem 0 0 clamp(0rem, 1vw, 1rem);
                 gap: clamp(1rem, 1.5vw, 1.5rem);
 
                 .block {

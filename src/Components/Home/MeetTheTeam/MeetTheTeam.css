@@ -67,6 +67,10 @@
 
             @media (max-width: 404px) {    
                 gap: 0 !important;
+
+                .slick-slide {
+                    margin-left: -0.3rem;
+                }
             }
         }
 
